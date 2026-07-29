@@ -1,0 +1,1064 @@
+[
+  {
+    "year": -123000,
+    "file": "years/y-123000.json",
+    "entityCount": 157,
+    "outputBytes": 47978
+  },
+  {
+    "year": -10000,
+    "file": "years/y-10000.json",
+    "entityCount": 135,
+    "outputBytes": 46515
+  },
+  {
+    "year": -8000,
+    "file": "years/y-8000.json",
+    "entityCount": 134,
+    "outputBytes": 46388
+  },
+  {
+    "year": -5000,
+    "file": "years/y-5000.json",
+    "entityCount": 279,
+    "outputBytes": 178302
+  },
+  {
+    "year": -4000,
+    "file": "years/y-4000.json",
+    "entityCount": 136,
+    "outputBytes": 47015
+  },
+  {
+    "year": -3000,
+    "file": "years/y-3000.json",
+    "entityCount": 138,
+    "outputBytes": 47658
+  },
+  {
+    "year": -2000,
+    "file": "years/y-2000.json",
+    "entityCount": 145,
+    "outputBytes": 37583
+  },
+  {
+    "year": -1500,
+    "file": "years/y-1500.json",
+    "entityCount": 163,
+    "outputBytes": 40156
+  },
+  {
+    "year": -1000,
+    "file": "years/y-1000.json",
+    "entityCount": 163,
+    "outputBytes": 41294
+  },
+  {
+    "year": -700,
+    "file": "years/y-700.json",
+    "entityCount": 174,
+    "outputBytes": 44181
+  },
+  {
+    "year": -500,
+    "file": "years/y-500.json",
+    "entityCount": 189,
+    "outputBytes": 50924
+  },
+  {
+    "year": -400,
+    "file": "years/y-400.json",
+    "entityCount": 190,
+    "outputBytes": 55426
+  },
+  {
+    "year": -323,
+    "file": "years/y-323.json",
+    "entityCount": 149,
+    "outputBytes": 47290
+  },
+  {
+    "year": -300,
+    "file": "years/y-300.json",
+    "entityCount": 155,
+    "outputBytes": 50038
+  },
+  {
+    "year": -200,
+    "file": "years/y-200.json",
+    "entityCount": 183,
+    "outputBytes": 42118
+  },
+  {
+    "year": -100,
+    "file": "years/y-100.json",
+    "entityCount": 233,
+    "outputBytes": 102026
+  },
+  {
+    "year": -1,
+    "file": "years/y-1.json",
+    "entityCount": 442,
+    "outputBytes": 141039
+  },
+  {
+    "year": 100,
+    "file": "years/y100.json",
+    "entityCount": 440,
+    "outputBytes": 143633
+  },
+  {
+    "year": 200,
+    "file": "years/y200.json",
+    "entityCount": 354,
+    "outputBytes": 127076
+  },
+  {
+    "year": 300,
+    "file": "years/y300.json",
+    "entityCount": 466,
+    "outputBytes": 88710
+  },
+  {
+    "year": 400,
+    "file": "years/y400.json",
+    "entityCount": 367,
+    "outputBytes": 135011
+  },
+  {
+    "year": 500,
+    "file": "years/y500.json",
+    "entityCount": 205,
+    "outputBytes": 73757
+  },
+  {
+    "year": 600,
+    "file": "years/y600.json",
+    "entityCount": 204,
+    "outputBytes": 135494
+  },
+  {
+    "year": 700,
+    "file": "years/y700.json",
+    "entityCount": 253,
+    "outputBytes": 150910
+  },
+  {
+    "year": 800,
+    "file": "years/y800.json",
+    "entityCount": 225,
+    "outputBytes": 93248
+  },
+  {
+    "year": 900,
+    "file": "years/y900.json",
+    "entityCount": 244,
+    "outputBytes": 103018
+  },
+  {
+    "year": 1000,
+    "file": "years/y1000.json",
+    "entityCount": 264,
+    "outputBytes": 147538
+  },
+  {
+    "year": 1100,
+    "file": "years/y1100.json",
+    "entityCount": 235,
+    "outputBytes": 96339
+  },
+  {
+    "year": 1200,
+    "file": "years/y1200.json",
+    "entityCount": 286,
+    "outputBytes": 95495
+  },
+  {
+    "year": 1279,
+    "file": "years/y1279.json",
+    "entityCount": 247,
+    "outputBytes": 65746
+  },
+  {
+    "year": 1300,
+    "file": "years/y1300.json",
+    "entityCount": 237,
+    "outputBytes": 64023
+  },
+  {
+    "year": 1400,
+    "file": "years/y1400.json",
+    "entityCount": 233,
+    "outputBytes": 99971
+  },
+  {
+    "year": 1492,
+    "file": "years/y1492.json",
+    "entityCount": 1946,
+    "outputBytes": 711854
+  },
+  {
+    "year": 1500,
+    "file": "years/y1500.json",
+    "entityCount": 291,
+    "outputBytes": 148867
+  },
+  {
+    "year": 1530,
+    "file": "years/y1530.json",
+    "entityCount": 494,
+    "outputBytes": 395284
+  },
+  {
+    "year": 1600,
+    "file": "years/y1600.json",
+    "entityCount": 866,
+    "outputBytes": 481850
+  },
+  {
+    "year": 1650,
+    "file": "years/y1650.json",
+    "entityCount": 778,
+    "outputBytes": 518722
+  },
+  {
+    "year": 1700,
+    "file": "years/y1700.json",
+    "entityCount": 782,
+    "outputBytes": 570387
+  },
+  {
+    "year": 1715,
+    "file": "years/y1715.json",
+    "entityCount": 758,
+    "outputBytes": 520364
+  },
+  {
+    "year": 1783,
+    "file": "years/y1783.json",
+    "entityCount": 641,
+    "outputBytes": 611042
+  },
+  {
+    "year": 1800,
+    "file": "years/y1800.json",
+    "entityCount": 627,
+    "outputBytes": 682988
+  },
+  {
+    "year": 1815,
+    "file": "years/y1815.json",
+    "entityCount": 436,
+    "outputBytes": 766536
+  },
+  {
+    "year": 1880,
+    "file": "years/y1880.json",
+    "entityCount": 236,
+    "outputBytes": 810164
+  },
+  {
+    "year": 1886,
+    "file": "years/y1886.json",
+    "entityCount": 130,
+    "outputBytes": 602828
+  },
+  {
+    "year": 1887,
+    "file": "years/y1887.json",
+    "entityCount": 130,
+    "outputBytes": 602246
+  },
+  {
+    "year": 1888,
+    "file": "years/y1888.json",
+    "entityCount": 137,
+    "outputBytes": 605039
+  },
+  {
+    "year": 1889,
+    "file": "years/y1889.json",
+    "entityCount": 144,
+    "outputBytes": 606383
+  },
+  {
+    "year": 1890,
+    "file": "years/y1890.json",
+    "entityCount": 142,
+    "outputBytes": 653968
+  },
+  {
+    "year": 1891,
+    "file": "years/y1891.json",
+    "entityCount": 147,
+    "outputBytes": 656664
+  },
+  {
+    "year": 1892,
+    "file": "years/y1892.json",
+    "entityCount": 143,
+    "outputBytes": 656252
+  },
+  {
+    "year": 1893,
+    "file": "years/y1893.json",
+    "entityCount": 151,
+    "outputBytes": 656458
+  },
+  {
+    "year": 1894,
+    "file": "years/y1894.json",
+    "entityCount": 149,
+    "outputBytes": 656875
+  },
+  {
+    "year": 1895,
+    "file": "years/y1895.json",
+    "entityCount": 156,
+    "outputBytes": 657687
+  },
+  {
+    "year": 1896,
+    "file": "years/y1896.json",
+    "entityCount": 152,
+    "outputBytes": 667441
+  },
+  {
+    "year": 1897,
+    "file": "years/y1897.json",
+    "entityCount": 153,
+    "outputBytes": 674749
+  },
+  {
+    "year": 1898,
+    "file": "years/y1898.json",
+    "entityCount": 155,
+    "outputBytes": 674582
+  },
+  {
+    "year": 1899,
+    "file": "years/y1899.json",
+    "entityCount": 154,
+    "outputBytes": 679392
+  },
+  {
+    "year": 1900,
+    "file": "years/y1900.json",
+    "entityCount": 159,
+    "outputBytes": 716921
+  },
+  {
+    "year": 1901,
+    "file": "years/y1901.json",
+    "entityCount": 148,
+    "outputBytes": 778574
+  },
+  {
+    "year": 1902,
+    "file": "years/y1902.json",
+    "entityCount": 159,
+    "outputBytes": 780566
+  },
+  {
+    "year": 1903,
+    "file": "years/y1903.json",
+    "entityCount": 153,
+    "outputBytes": 768982
+  },
+  {
+    "year": 1904,
+    "file": "years/y1904.json",
+    "entityCount": 156,
+    "outputBytes": 773793
+  },
+  {
+    "year": 1905,
+    "file": "years/y1905.json",
+    "entityCount": 158,
+    "outputBytes": 747420
+  },
+  {
+    "year": 1906,
+    "file": "years/y1906.json",
+    "entityCount": 157,
+    "outputBytes": 765372
+  },
+  {
+    "year": 1907,
+    "file": "years/y1907.json",
+    "entityCount": 158,
+    "outputBytes": 766711
+  },
+  {
+    "year": 1908,
+    "file": "years/y1908.json",
+    "entityCount": 156,
+    "outputBytes": 764969
+  },
+  {
+    "year": 1909,
+    "file": "years/y1909.json",
+    "entityCount": 157,
+    "outputBytes": 771117
+  },
+  {
+    "year": 1910,
+    "file": "years/y1910.json",
+    "entityCount": 156,
+    "outputBytes": 771249
+  },
+  {
+    "year": 1911,
+    "file": "years/y1911.json",
+    "entityCount": 149,
+    "outputBytes": 749979
+  },
+  {
+    "year": 1912,
+    "file": "years/y1912.json",
+    "entityCount": 159,
+    "outputBytes": 886436
+  },
+  {
+    "year": 1913,
+    "file": "years/y1913.json",
+    "entityCount": 160,
+    "outputBytes": 912046
+  },
+  {
+    "year": 1914,
+    "file": "years/y1914.json",
+    "entityCount": 163,
+    "outputBytes": 928905
+  },
+  {
+    "year": 1915,
+    "file": "years/y1915.json",
+    "entityCount": 155,
+    "outputBytes": 917409
+  },
+  {
+    "year": 1916,
+    "file": "years/y1916.json",
+    "entityCount": 155,
+    "outputBytes": 919314
+  },
+  {
+    "year": 1917,
+    "file": "years/y1917.json",
+    "entityCount": 154,
+    "outputBytes": 918654
+  },
+  {
+    "year": 1918,
+    "file": "years/y1918.json",
+    "entityCount": 173,
+    "outputBytes": 932486
+  },
+  {
+    "year": 1919,
+    "file": "years/y1919.json",
+    "entityCount": 185,
+    "outputBytes": 954324
+  },
+  {
+    "year": 1920,
+    "file": "years/y1920.json",
+    "entityCount": 193,
+    "outputBytes": 971398
+  },
+  {
+    "year": 1921,
+    "file": "years/y1921.json",
+    "entityCount": 172,
+    "outputBytes": 1002581
+  },
+  {
+    "year": 1922,
+    "file": "years/y1922.json",
+    "entityCount": 180,
+    "outputBytes": 1006716
+  },
+  {
+    "year": 1923,
+    "file": "years/y1923.json",
+    "entityCount": 172,
+    "outputBytes": 1048553
+  },
+  {
+    "year": 1924,
+    "file": "years/y1924.json",
+    "entityCount": 171,
+    "outputBytes": 1046993
+  },
+  {
+    "year": 1925,
+    "file": "years/y1925.json",
+    "entityCount": 172,
+    "outputBytes": 1074119
+  },
+  {
+    "year": 1926,
+    "file": "years/y1926.json",
+    "entityCount": 172,
+    "outputBytes": 1095479
+  },
+  {
+    "year": 1927,
+    "file": "years/y1927.json",
+    "entityCount": 170,
+    "outputBytes": 1096835
+  },
+  {
+    "year": 1928,
+    "file": "years/y1928.json",
+    "entityCount": 169,
+    "outputBytes": 1096808
+  },
+  {
+    "year": 1929,
+    "file": "years/y1929.json",
+    "entityCount": 169,
+    "outputBytes": 1098056
+  },
+  {
+    "year": 1930,
+    "file": "years/y1930.json",
+    "entityCount": 171,
+    "outputBytes": 1097149
+  },
+  {
+    "year": 1931,
+    "file": "years/y1931.json",
+    "entityCount": 171,
+    "outputBytes": 1097380
+  },
+  {
+    "year": 1932,
+    "file": "years/y1932.json",
+    "entityCount": 176,
+    "outputBytes": 1188725
+  },
+  {
+    "year": 1933,
+    "file": "years/y1933.json",
+    "entityCount": 171,
+    "outputBytes": 1193080
+  },
+  {
+    "year": 1934,
+    "file": "years/y1934.json",
+    "entityCount": 174,
+    "outputBytes": 1195128
+  },
+  {
+    "year": 1935,
+    "file": "years/y1935.json",
+    "entityCount": 170,
+    "outputBytes": 1198234
+  },
+  {
+    "year": 1936,
+    "file": "years/y1936.json",
+    "entityCount": 170,
+    "outputBytes": 1199641
+  },
+  {
+    "year": 1937,
+    "file": "years/y1937.json",
+    "entityCount": 174,
+    "outputBytes": 1189476
+  },
+  {
+    "year": 1938,
+    "file": "years/y1938.json",
+    "entityCount": 179,
+    "outputBytes": 1194622
+  },
+  {
+    "year": 1939,
+    "file": "years/y1939.json",
+    "entityCount": 173,
+    "outputBytes": 1159578
+  },
+  {
+    "year": 1940,
+    "file": "years/y1940.json",
+    "entityCount": 179,
+    "outputBytes": 1108000
+  },
+  {
+    "year": 1941,
+    "file": "years/y1941.json",
+    "entityCount": 171,
+    "outputBytes": 1017873
+  },
+  {
+    "year": 1942,
+    "file": "years/y1942.json",
+    "entityCount": 173,
+    "outputBytes": 1014668
+  },
+  {
+    "year": 1943,
+    "file": "years/y1943.json",
+    "entityCount": 170,
+    "outputBytes": 1020035
+  },
+  {
+    "year": 1944,
+    "file": "years/y1944.json",
+    "entityCount": 173,
+    "outputBytes": 1006028
+  },
+  {
+    "year": 1945,
+    "file": "years/y1945.json",
+    "entityCount": 179,
+    "outputBytes": 1039101
+  },
+  {
+    "year": 1946,
+    "file": "years/y1946.json",
+    "entityCount": 178,
+    "outputBytes": 1243204
+  },
+  {
+    "year": 1947,
+    "file": "years/y1947.json",
+    "entityCount": 180,
+    "outputBytes": 1294938
+  },
+  {
+    "year": 1948,
+    "file": "years/y1948.json",
+    "entityCount": 181,
+    "outputBytes": 1329269
+  },
+  {
+    "year": 1949,
+    "file": "years/y1949.json",
+    "entityCount": 183,
+    "outputBytes": 1368332
+  },
+  {
+    "year": 1950,
+    "file": "years/y1950.json",
+    "entityCount": 174,
+    "outputBytes": 1157152
+  },
+  {
+    "year": 1951,
+    "file": "years/y1951.json",
+    "entityCount": 172,
+    "outputBytes": 1373772
+  },
+  {
+    "year": 1952,
+    "file": "years/y1952.json",
+    "entityCount": 172,
+    "outputBytes": 1377352
+  },
+  {
+    "year": 1953,
+    "file": "years/y1953.json",
+    "entityCount": 172,
+    "outputBytes": 1381443
+  },
+  {
+    "year": 1954,
+    "file": "years/y1954.json",
+    "entityCount": 172,
+    "outputBytes": 1461838
+  },
+  {
+    "year": 1955,
+    "file": "years/y1955.json",
+    "entityCount": 169,
+    "outputBytes": 1498736
+  },
+  {
+    "year": 1956,
+    "file": "years/y1956.json",
+    "entityCount": 172,
+    "outputBytes": 1550451
+  },
+  {
+    "year": 1957,
+    "file": "years/y1957.json",
+    "entityCount": 170,
+    "outputBytes": 1584828
+  },
+  {
+    "year": 1958,
+    "file": "years/y1958.json",
+    "entityCount": 171,
+    "outputBytes": 1588130
+  },
+  {
+    "year": 1959,
+    "file": "years/y1959.json",
+    "entityCount": 171,
+    "outputBytes": 1628058
+  },
+  {
+    "year": 1960,
+    "file": "years/y1960.json",
+    "entityCount": 183,
+    "outputBytes": 1625679
+  },
+  {
+    "year": 1961,
+    "file": "years/y1961.json",
+    "entityCount": 169,
+    "outputBytes": 1525917
+  },
+  {
+    "year": 1962,
+    "file": "years/y1962.json",
+    "entityCount": 172,
+    "outputBytes": 1520153
+  },
+  {
+    "year": 1963,
+    "file": "years/y1963.json",
+    "entityCount": 167,
+    "outputBytes": 1530020
+  },
+  {
+    "year": 1964,
+    "file": "years/y1964.json",
+    "entityCount": 167,
+    "outputBytes": 1459814
+  },
+  {
+    "year": 1965,
+    "file": "years/y1965.json",
+    "entityCount": 167,
+    "outputBytes": 1531694
+  },
+  {
+    "year": 1966,
+    "file": "years/y1966.json",
+    "entityCount": 168,
+    "outputBytes": 1530787
+  },
+  {
+    "year": 1967,
+    "file": "years/y1967.json",
+    "entityCount": 168,
+    "outputBytes": 1523795
+  },
+  {
+    "year": 1968,
+    "file": "years/y1968.json",
+    "entityCount": 164,
+    "outputBytes": 1509797
+  },
+  {
+    "year": 1969,
+    "file": "years/y1969.json",
+    "entityCount": 162,
+    "outputBytes": 1510084
+  },
+  {
+    "year": 1970,
+    "file": "years/y1970.json",
+    "entityCount": 162,
+    "outputBytes": 1504654
+  },
+  {
+    "year": 1971,
+    "file": "years/y1971.json",
+    "entityCount": 165,
+    "outputBytes": 1409686
+  },
+  {
+    "year": 1972,
+    "file": "years/y1972.json",
+    "entityCount": 162,
+    "outputBytes": 1430769
+  },
+  {
+    "year": 1973,
+    "file": "years/y1973.json",
+    "entityCount": 163,
+    "outputBytes": 1423704
+  },
+  {
+    "year": 1974,
+    "file": "years/y1974.json",
+    "entityCount": 163,
+    "outputBytes": 1422547
+  },
+  {
+    "year": 1975,
+    "file": "years/y1975.json",
+    "entityCount": 171,
+    "outputBytes": 1420710
+  },
+  {
+    "year": 1976,
+    "file": "years/y1976.json",
+    "entityCount": 162,
+    "outputBytes": 1429997
+  },
+  {
+    "year": 1977,
+    "file": "years/y1977.json",
+    "entityCount": 160,
+    "outputBytes": 1423200
+  },
+  {
+    "year": 1978,
+    "file": "years/y1978.json",
+    "entityCount": 160,
+    "outputBytes": 1418824
+  },
+  {
+    "year": 1979,
+    "file": "years/y1979.json",
+    "entityCount": 163,
+    "outputBytes": 1417773
+  },
+  {
+    "year": 1980,
+    "file": "years/y1980.json",
+    "entityCount": 159,
+    "outputBytes": 1392310
+  },
+  {
+    "year": 1981,
+    "file": "years/y1981.json",
+    "entityCount": 160,
+    "outputBytes": 1392402
+  },
+  {
+    "year": 1982,
+    "file": "years/y1982.json",
+    "entityCount": 159,
+    "outputBytes": 1392261
+  },
+  {
+    "year": 1983,
+    "file": "years/y1983.json",
+    "entityCount": 160,
+    "outputBytes": 1391407
+  },
+  {
+    "year": 1984,
+    "file": "years/y1984.json",
+    "entityCount": 159,
+    "outputBytes": 1366167
+  },
+  {
+    "year": 1985,
+    "file": "years/y1985.json",
+    "entityCount": 159,
+    "outputBytes": 1366629
+  },
+  {
+    "year": 1986,
+    "file": "years/y1986.json",
+    "entityCount": 159,
+    "outputBytes": 1365923
+  },
+  {
+    "year": 1987,
+    "file": "years/y1987.json",
+    "entityCount": 159,
+    "outputBytes": 1350584
+  },
+  {
+    "year": 1988,
+    "file": "years/y1988.json",
+    "entityCount": 159,
+    "outputBytes": 1354067
+  },
+  {
+    "year": 1989,
+    "file": "years/y1989.json",
+    "entityCount": 159,
+    "outputBytes": 1385896
+  },
+  {
+    "year": 1990,
+    "file": "years/y1990.json",
+    "entityCount": 163,
+    "outputBytes": 1408214
+  },
+  {
+    "year": 1991,
+    "file": "years/y1991.json",
+    "entityCount": 179,
+    "outputBytes": 1473624
+  },
+  {
+    "year": 1992,
+    "file": "years/y1992.json",
+    "entityCount": 176,
+    "outputBytes": 1628978
+  },
+  {
+    "year": 1993,
+    "file": "years/y1993.json",
+    "entityCount": 178,
+    "outputBytes": 1643435
+  },
+  {
+    "year": 1994,
+    "file": "years/y1994.json",
+    "entityCount": 177,
+    "outputBytes": 1642155
+  },
+  {
+    "year": 1995,
+    "file": "years/y1995.json",
+    "entityCount": 177,
+    "outputBytes": 1637354
+  },
+  {
+    "year": 1996,
+    "file": "years/y1996.json",
+    "entityCount": 177,
+    "outputBytes": 1637354
+  },
+  {
+    "year": 1997,
+    "file": "years/y1997.json",
+    "entityCount": 178,
+    "outputBytes": 1632397
+  },
+  {
+    "year": 1998,
+    "file": "years/y1998.json",
+    "entityCount": 177,
+    "outputBytes": 1633071
+  },
+  {
+    "year": 1999,
+    "file": "years/y1999.json",
+    "entityCount": 177,
+    "outputBytes": 1632801
+  },
+  {
+    "year": 2000,
+    "file": "years/y2000.json",
+    "entityCount": 179,
+    "outputBytes": 1630958
+  },
+  {
+    "year": 2001,
+    "file": "years/y2001.json",
+    "entityCount": 177,
+    "outputBytes": 1632022
+  },
+  {
+    "year": 2002,
+    "file": "years/y2002.json",
+    "entityCount": 179,
+    "outputBytes": 1632575
+  },
+  {
+    "year": 2003,
+    "file": "years/y2003.json",
+    "entityCount": 178,
+    "outputBytes": 1631864
+  },
+  {
+    "year": 2004,
+    "file": "years/y2004.json",
+    "entityCount": 178,
+    "outputBytes": 1607556
+  },
+  {
+    "year": 2005,
+    "file": "years/y2005.json",
+    "entityCount": 179,
+    "outputBytes": 1608386
+  },
+  {
+    "year": 2006,
+    "file": "years/y2006.json",
+    "entityCount": 180,
+    "outputBytes": 1607221
+  },
+  {
+    "year": 2007,
+    "file": "years/y2007.json",
+    "entityCount": 179,
+    "outputBytes": 1626130
+  },
+  {
+    "year": 2008,
+    "file": "years/y2008.json",
+    "entityCount": 181,
+    "outputBytes": 1627354
+  },
+  {
+    "year": 2009,
+    "file": "years/y2009.json",
+    "entityCount": 180,
+    "outputBytes": 1635652
+  },
+  {
+    "year": 2010,
+    "file": "years/y2010.json",
+    "entityCount": 180,
+    "outputBytes": 1635652
+  },
+  {
+    "year": 2011,
+    "file": "years/y2011.json",
+    "entityCount": 182,
+    "outputBytes": 1636519
+  },
+  {
+    "year": 2012,
+    "file": "years/y2012.json",
+    "entityCount": 181,
+    "outputBytes": 1646886
+  },
+  {
+    "year": 2013,
+    "file": "years/y2013.json",
+    "entityCount": 181,
+    "outputBytes": 1646886
+  },
+  {
+    "year": 2014,
+    "file": "years/y2014.json",
+    "entityCount": 183,
+    "outputBytes": 1648618
+  },
+  {
+    "year": 2015,
+    "file": "years/y2015.json",
+    "entityCount": 181,
+    "outputBytes": 1648059
+  },
+  {
+    "year": 2016,
+    "file": "years/y2016.json",
+    "entityCount": 181,
+    "outputBytes": 1642950
+  },
+  {
+    "year": 2017,
+    "file": "years/y2017.json",
+    "entityCount": 181,
+    "outputBytes": 1642950
+  },
+  {
+    "year": 2018,
+    "file": "years/y2018.json",
+    "entityCount": 181,
+    "outputBytes": 1642950
+  },
+  {
+    "year": 2019,
+    "file": "years/y2019.json",
+    "entityCount": 181,
+    "outputBytes": 1640364
+  }
+]

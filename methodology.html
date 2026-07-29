@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Methodology — Historical Boundaries Map</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/methodology.css" />
+  </head>
+  <body class="methodology-body">
+    <main class="methodology">
+      <a href="/" class="back-link">&larr; Back to the map</a>
+      <h1>How this map is built</h1>
+      <p class="lede">
+        This page explains where the data comes from, how it's combined, and — just as
+        important — where it's known to be wrong, approximate, or incomplete. Read this before
+        citing anything here in a lesson plan or paper.
+      </p>
+
+      <h2>What this is</h2>
+      <p>
+        A personal passion project: a whole-world map of political boundaries for any year in
+        history, with a year control to move through time. It's also meant to double as a free
+        research/teaching resource for history classrooms — but it is <strong>not</strong> a
+        peer-reviewed academic source. Verify anything load-bearing against a primary source.
+      </p>
+      <p>
+        The boundaries are drawn over <strong>today's</strong> coastlines and rivers, not the
+        physical geography of the selected year — physical geography (coastlines, river courses,
+        lake extents) does change over centuries, and this map doesn't attempt to model that. See
+        "Known limitations" below.
+      </p>
+
+      <h2>Data sources</h2>
+      <table class="source-table">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Covers</th>
+            <th>License</th>
+            <th>What it contributes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (Ourednik et al.)</td>
+            <td>~123,000 BCE &ndash; 1880 CE (43 snapshot years)</td>
+            <td>GPLv3</td>
+            <td>The base boundary geometry for ancient through early-modern history. Community-maintained, explicitly labeled work-in-progress by its own authors.</td>
+          </tr>
+          <tr>
+            <td><a href="https://icr.ethz.ch/data/cshapes/" target="_blank" rel="noopener">CShapes 2.0</a> (Schvitz, R&uuml;egger, Girardin, Cederman, Weidmann, Gleditsch &mdash; ETH Z&uuml;rich)</td>
+            <td>1886 &ndash; 2019 (134 snapshot years, one per calendar year)</td>
+            <td>CC BY-NC-SA 4.0</td>
+            <td>Academic dataset, replaces historical-basemaps' sparser coverage of the same era. Adds capital city per country.</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a></td>
+            <td>Modern countries only (matched by name, ~174 of 181)</td>
+            <td>CC0</td>
+            <td>Replaces the derived existed-date-range with real recorded inception/dissolution dates, plus predecessor/successor links, wherever a confident name match exists.</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.openhistoricalmap.org/" target="_blank" rel="noopener">OpenHistoricalMap</a></td>
+            <td>233 entities, wherever community contributors have mapped them (very uneven &mdash; see below)</td>
+            <td>CC0</td>
+            <td>Replaces the boundary shape itself (not just the date) with a more precise, real, day-dated version, for whichever specific entity/year combinations it covers. Shown with a gold outline on the map.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>How the sources are combined</h2>
+      <p>
+        Every year is one file with the whole world's boundaries for that year. The three map
+        sources never overlap in which years they own &mdash; historical-basemaps covers up to
+        1880, CShapes takes over for 1886&ndash;2019 (its snapshots replace
+        historical-basemaps' overlapping years outright, rather than showing both). OpenHistoricalMap
+        is different: it doesn't own any years by itself. Instead, wherever it has a matching,
+        date-accurate boundary for a specific country in a specific year, that one entity's shape
+        is swapped in on top of whatever the base source already drew &mdash; everything else on
+        the map for that year is untouched. That's why some countries get a gold outline and most
+        don't: it reflects genuinely uneven real-world coverage, not a rendering choice.
+      </p>
+      <p>
+        Simplification: all geometry is simplified (fewer vertices) before shipping to the
+        browser, to keep the map fast to load. One deliberate choice here: the pipeline does
+        <em>not</em> run typical GIS "cleanup" that dissolves overlapping polygons or removes
+        small/sliver shapes &mdash; overlapping claims and small polities are real, intentional
+        features of pre-modern history in this data, not defects to clean up.
+      </p>
+
+      <h2>Known limitations</h2>
+      <ul>
+        <li>
+          <strong>Physical geography is modern, political geography is historical.</strong> The
+          basemap shows today's coastlines/rivers. The Aral Sea, for instance, looked very
+          different a few decades ago &mdash; the map won't show that.
+        </li>
+        <li>
+          <strong>"Boundaries" are a modern concept.</strong> Before the Peace of Westphalia
+          (1648), the idea of a fixed, linear national border doesn't really describe how
+          pre-modern polities worked. Treat early borders as approximate zones of influence, not
+          surveyed lines.
+        </li>
+        <li>
+          <strong>Overlapping regions are intentional</strong> in ancient/pre-modern periods
+          (competing or overlapping spheres of authority) &mdash; not a rendering bug.
+        </li>
+        <li>
+          <strong>Existed-date ranges are usually derived, not verified.</strong> For any entity
+          without a confident Wikidata match, the popup's date range is just the min/max year that
+          exact name string happens to appear across this dataset's snapshots. Renames, splits, and
+          mergers make this wrong in plenty of cases &mdash; a visible caveat appears when a name's
+          appearances have a gap in the middle, which is the clearest sign the naive range is
+          suspect.
+        </li>
+        <li>
+          <strong>OpenHistoricalMap coverage is very uneven</strong> and reflects individual
+          contributors' interests, not a systematic effort. Some entities (e.g. France) have
+          decades of richly detailed, sourced boundary history. Most have none at all. A country
+          having no gold outline says nothing about that country's actual history &mdash; only that
+          nobody has mapped it there yet.
+        </li>
+        <li>
+          <strong>Entity matching across sources is name-based and imperfect.</strong> Different
+          sources call the same country different things (historical-lineage names vs. common
+          names, local-script names vs. English), so a small number of matches are hand-corrected
+          rather than fully automatic. Mismatches are possible and not always caught.
+        </li>
+        <li>
+          <strong>A few entities are known to be missing outright</strong> due to broken source
+          geometry rather than any historical reality &mdash; most notably Switzerland in the
+          1994/2000/2010 historical-basemaps-era snapshots (fixed everywhere CShapes/OHM cover
+          instead).
+        </li>
+      </ul>
+
+      <h2>Source code</h2>
+      <p>
+        The full data pipeline and front end are open — every step described above is a script,
+        not a manual process, so it can be re-run, audited, or corrected.
+      </p>
+
+      <p class="footer-note">Questions or corrections: see the project repository.</p>
+    </main>
+  </body>
+</html>

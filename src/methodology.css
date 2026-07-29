@@ -1,0 +1,87 @@
+.methodology-body {
+  height: auto;
+  overflow-y: auto;
+  background: #fafaf7;
+  color: #1a1a1a;
+}
+
+.methodology {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+  font: 16px/1.6 system-ui, sans-serif;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #0645ad;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.methodology h1 {
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+
+.methodology h2 {
+  font-size: 22px;
+  margin: 40px 0 12px;
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.methodology .lede {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.methodology p {
+  margin: 0 0 14px;
+}
+
+.methodology ul {
+  margin: 0 0 14px;
+  padding-left: 22px;
+}
+
+.methodology li {
+  margin-bottom: 10px;
+}
+
+.source-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.source-table th,
+.source-table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.source-table th {
+  background: #f0ede4;
+}
+
+.methodology a {
+  color: #0645ad;
+}
+
+.footer-note {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+  font-size: 13px;
+  color: #666;
+}

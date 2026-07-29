@@ -1,0 +1,2056 @@
+{
+  "Spain": {
+    "qid": "Q29",
+    "wikidataLabel": "Spain",
+    "inception": "1516-03-24",
+    "dissolved": null,
+    "replaces": [
+      "Hispanic Monarchy",
+      "First Spanish Republic",
+      "Kingdom of Aragon",
+      "Crown of Aragon",
+      "Spanish Empire"
+    ],
+    "replacedBy": []
+  },
+  "Solomon Islands": {
+    "qid": "Q685",
+    "wikidataLabel": "Solomon Islands",
+    "inception": "1978-01-01",
+    "dissolved": null,
+    "replaces": [
+      "British Solomon Islands"
+    ],
+    "replacedBy": []
+  },
+  "Barbados": {
+    "qid": "Q244",
+    "wikidataLabel": "Barbados",
+    "inception": "1966-11-30",
+    "dissolved": null,
+    "replaces": [
+      "Colony of Barbados"
+    ],
+    "replacedBy": []
+  },
+  "Belize": {
+    "qid": "Q242",
+    "wikidataLabel": "Belize",
+    "inception": "1981-09-21",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Bahamas": {
+    "qid": "Q778",
+    "wikidataLabel": "The Bahamas",
+    "inception": "1973-07-10",
+    "dissolved": null,
+    "replaces": [
+      "British West Indies"
+    ],
+    "replacedBy": []
+  },
+  "Papua New Guinea": {
+    "qid": "Q691",
+    "wikidataLabel": "Papua New Guinea",
+    "inception": "1975-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Territory of Papua and New Guinea",
+      "Republic of the North Solomons"
+    ],
+    "replacedBy": []
+  },
+  "Jamaica": {
+    "qid": "Q766",
+    "wikidataLabel": "Jamaica",
+    "inception": "1962-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Colony of Jamaica"
+    ],
+    "replacedBy": []
+  },
+  "New Zealand": {
+    "qid": "Q664",
+    "wikidataLabel": "New Zealand",
+    "inception": "1841-05-03",
+    "dissolved": null,
+    "replaces": [
+      "Dominion of New Zealand",
+      "Colony of New Zealand"
+    ],
+    "replacedBy": []
+  },
+  "Ethiopia": {
+    "qid": "Q115",
+    "wikidataLabel": "Ethiopia",
+    "inception": "1995-08-21",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Uganda": {
+    "qid": "Q1036",
+    "wikidataLabel": "Uganda",
+    "inception": "1962-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of Uganda"
+    ],
+    "replacedBy": []
+  },
+  "Zimbabwe (Rhodesia)": {
+    "qid": "Q954",
+    "wikidataLabel": "Zimbabwe",
+    "inception": "1980-04-18",
+    "dissolved": null,
+    "replaces": [
+      "Southern Rhodesia"
+    ],
+    "replacedBy": []
+  },
+  "Zambia": {
+    "qid": "Q953",
+    "wikidataLabel": "Zambia",
+    "inception": "1964-10-24",
+    "dissolved": null,
+    "replaces": [
+      "Northern Rhodesia"
+    ],
+    "replacedBy": []
+  },
+  "Tajikistan": {
+    "qid": "Q863",
+    "wikidataLabel": "Tajikistan",
+    "inception": "1991-09-09",
+    "dissolved": null,
+    "replaces": [
+      "Tajik Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Swaziland (Eswatini)": {
+    "qid": "Q1050",
+    "wikidataLabel": "Eswatini",
+    "inception": "1968-09-06",
+    "dissolved": null,
+    "replaces": [
+      "British Swaziland"
+    ],
+    "replacedBy": []
+  },
+  "Niger": {
+    "qid": "Q1032",
+    "wikidataLabel": "Niger",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Nepal": {
+    "qid": "Q837",
+    "wikidataLabel": "Nepal",
+    "inception": "2008-05-28",
+    "dissolved": null,
+    "replaces": [
+      "Kingdom of Nepal"
+    ],
+    "replacedBy": []
+  },
+  "Kyrgyz Republic": {
+    "qid": "Q813",
+    "wikidataLabel": "Kyrgyzstan",
+    "inception": "1991-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Kirghiz Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Malawi": {
+    "qid": "Q1020",
+    "wikidataLabel": "Malawi",
+    "inception": "1964-07-06",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of Malawi"
+    ],
+    "replacedBy": []
+  },
+  "Laos": {
+    "qid": "Q819",
+    "wikidataLabel": "Laos",
+    "inception": "1949-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Belarus (Byelorussia)": {
+    "qid": "Q184",
+    "wikidataLabel": "Belarus",
+    "inception": "0882-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Soviet Union",
+      "Byelorussian Soviet Socialist Republic"
+    ],
+    "replacedBy": []
+  },
+  "Burundi": {
+    "qid": "Q967",
+    "wikidataLabel": "Burundi",
+    "inception": "1962-07-01",
+    "dissolved": null,
+    "replaces": [
+      "Kingdom of Burundi"
+    ],
+    "replacedBy": []
+  },
+  "Burkina Faso (Upper Volta)": {
+    "qid": "Q965",
+    "wikidataLabel": "Burkina Faso",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Emirate of Liptako",
+      "Republic of Upper Volta",
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Chad": {
+    "qid": "Q657",
+    "wikidataLabel": "Chad",
+    "inception": "1960-08-11",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Afghanistan": {
+    "qid": "Q889",
+    "wikidataLabel": "Afghanistan",
+    "inception": "1709-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Bhutan": {
+    "qid": "Q917",
+    "wikidataLabel": "Bhutan",
+    "inception": "1949-08-08",
+    "dissolved": null,
+    "replaces": [
+      "princely state"
+    ],
+    "replacedBy": []
+  },
+  "Moldova": {
+    "qid": "Q217",
+    "wikidataLabel": "Moldova",
+    "inception": "1991-08-27",
+    "dissolved": null,
+    "replaces": [
+      "Moldavian Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Botswana": {
+    "qid": "Q963",
+    "wikidataLabel": "Botswana",
+    "inception": "1966-09-30",
+    "dissolved": null,
+    "replaces": [
+      "Bechuanaland Protectorate"
+    ],
+    "replacedBy": []
+  },
+  "Luxembourg": {
+    "qid": "Q32",
+    "wikidataLabel": "Luxembourg",
+    "inception": "1815-01-01",
+    "dissolved": null,
+    "replaces": [
+      "German Confederation"
+    ],
+    "replacedBy": []
+  },
+  "Mali": {
+    "qid": "Q912",
+    "wikidataLabel": "Mali",
+    "inception": "1960-09-22",
+    "dissolved": null,
+    "replaces": [
+      "French Sudan",
+      "French West Africa",
+      "Mali Federation"
+    ],
+    "replacedBy": []
+  },
+  "Central African Republic": {
+    "qid": "Q929",
+    "wikidataLabel": "Central African Republic",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Central African Empire"
+    ],
+    "replacedBy": []
+  },
+  "Kosovo": {
+    "qid": "Q1246",
+    "wikidataLabel": "Kosovo",
+    "inception": "2008-02-17",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "South Sudan": {
+    "qid": "Q958",
+    "wikidataLabel": "South Sudan",
+    "inception": "2011-07-09",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Austria": {
+    "qid": "Q40",
+    "wikidataLabel": "Austria",
+    "inception": "1918-11-12",
+    "dissolved": null,
+    "replaces": [
+      "Austria–Hungary"
+    ],
+    "replacedBy": []
+  },
+  "Czech Republic": {
+    "qid": "Q213",
+    "wikidataLabel": "Czech Republic",
+    "inception": "1993-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Czech Republic",
+      "Czech and Slovak Federal Republic"
+    ],
+    "replacedBy": []
+  },
+  "Bolivia": {
+    "qid": "Q750",
+    "wikidataLabel": "Bolivia",
+    "inception": "1825-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": [
+      "Acre Territory"
+    ]
+  },
+  "Macedonia (FYROM/North Macedonia)": {
+    "qid": "Q221",
+    "wikidataLabel": "North Macedonia",
+    "inception": "1991-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Socialist Republic of Macedonia",
+      "Socialist Federal Republic of Yugoslavia"
+    ],
+    "replacedBy": []
+  },
+  "Turkmenistan": {
+    "qid": "Q874",
+    "wikidataLabel": "Turkmenistan",
+    "inception": "1991-10-27",
+    "dissolved": null,
+    "replaces": [
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Kazakhstan": {
+    "qid": "Q232",
+    "wikidataLabel": "Kazakhstan",
+    "inception": "1991-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Kazakh Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Switzerland": {
+    "qid": "Q39",
+    "wikidataLabel": "Switzerland",
+    "inception": "1848-09-12",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Lesotho": {
+    "qid": "Q1013",
+    "wikidataLabel": "Lesotho",
+    "inception": "1966-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Basutoland"
+    ],
+    "replacedBy": []
+  },
+  "Mongolia": {
+    "qid": "Q711",
+    "wikidataLabel": "Mongolia",
+    "inception": "1992-02-12",
+    "dissolved": null,
+    "replaces": [
+      "Chinese Empire"
+    ],
+    "replacedBy": []
+  },
+  "Serbia": {
+    "qid": "Q403",
+    "wikidataLabel": "Serbia",
+    "inception": "2006-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Serbia and Montenegro"
+    ],
+    "replacedBy": []
+  },
+  "Slovakia": {
+    "qid": "Q214",
+    "wikidataLabel": "Slovakia",
+    "inception": "1993-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Slovak Republic",
+      "Czech and Slovak Federal Republic"
+    ],
+    "replacedBy": []
+  },
+  "Hungary": {
+    "qid": "Q28",
+    "wikidataLabel": "Hungary",
+    "inception": "1000-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Hungarian People's Republic"
+    ],
+    "replacedBy": []
+  },
+  "Haiti": {
+    "qid": "Q790",
+    "wikidataLabel": "Haiti",
+    "inception": "1804-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Second Empire of Haiti"
+    ],
+    "replacedBy": []
+  },
+  "Trinidad and Tobago": {
+    "qid": "Q754",
+    "wikidataLabel": "Trinidad and Tobago",
+    "inception": "1976-08-01",
+    "dissolved": null,
+    "replaces": [
+      "Trinidad and Tobago"
+    ],
+    "replacedBy": []
+  },
+  "Mauritius": {
+    "qid": "Q1027",
+    "wikidataLabel": "Mauritius",
+    "inception": "1968-03-12",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of Mauritius"
+    ],
+    "replacedBy": []
+  },
+  "Maldives": {
+    "qid": "Q826",
+    "wikidataLabel": "Maldives",
+    "inception": "1965-07-26",
+    "dissolved": null,
+    "replaces": [
+      "Sultanate of the Maldives",
+      "United Suvadive Republic"
+    ],
+    "replacedBy": []
+  },
+  "Comoros": {
+    "qid": "Q970",
+    "wikidataLabel": "Comoros",
+    "inception": "1975-07-06",
+    "dissolved": null,
+    "replaces": [
+      "Federal Islamic Republic of the Comoros"
+    ],
+    "replacedBy": []
+  },
+  "Dominican Republic": {
+    "qid": "Q786",
+    "wikidataLabel": "Dominican Republic",
+    "inception": "1844-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "East Timor": {
+    "qid": "Q574",
+    "wikidataLabel": "Timor-Leste",
+    "inception": "1975-11-28",
+    "dissolved": null,
+    "replaces": [
+      "Timor Timur",
+      "Portuguese Timor"
+    ],
+    "replacedBy": []
+  },
+  "Bahrain": {
+    "qid": "Q398",
+    "wikidataLabel": "Bahrain",
+    "inception": "1971-08-14",
+    "dissolved": null,
+    "replaces": [
+      "State of Bahrain"
+    ],
+    "replacedBy": []
+  },
+  "Philippines": {
+    "qid": "Q928",
+    "wikidataLabel": "Philippines",
+    "inception": "1565-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth of the Philippines"
+    ],
+    "replacedBy": []
+  },
+  "Fiji": {
+    "qid": "Q712",
+    "wikidataLabel": "Fiji",
+    "inception": "1970-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Dominion of Fiji",
+      "Colony of Fiji"
+    ],
+    "replacedBy": []
+  },
+  "Singapore": {
+    "qid": "Q334",
+    "wikidataLabel": "Singapore",
+    "inception": "1965-08-09",
+    "dissolved": null,
+    "replaces": [
+      "Singapore in Federation of Malaysia"
+    ],
+    "replacedBy": []
+  },
+  "United Kingdom": {
+    "qid": "Q145",
+    "wikidataLabel": "United Kingdom",
+    "inception": "1801-01-01",
+    "dissolved": null,
+    "replaces": [
+      "United Kingdom of Great Britain and Ireland"
+    ],
+    "replacedBy": []
+  },
+  "Japan": {
+    "qid": "Q17",
+    "wikidataLabel": "Japan",
+    "inception": "1947-05-03",
+    "dissolved": null,
+    "replaces": [
+      "Second Shō Dynasty",
+      "Empire of Japan"
+    ],
+    "replacedBy": []
+  },
+  "Taiwan": {
+    "qid": "Q865",
+    "wikidataLabel": "Taiwan",
+    "inception": "1912-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Republic of China",
+      "Taiwan under Japanese rule",
+      "Qing dynasty"
+    ],
+    "replacedBy": []
+  },
+  "Sri Lanka (Ceylon)": {
+    "qid": "Q854",
+    "wikidataLabel": "Sri Lanka",
+    "inception": "1972-05-22",
+    "dissolved": null,
+    "replaces": [
+      "Dominion of Ceylon"
+    ],
+    "replacedBy": []
+  },
+  "Indonesia": {
+    "qid": "Q252",
+    "wikidataLabel": "Indonesia",
+    "inception": "1945-08-17",
+    "dissolved": null,
+    "replaces": [
+      "Bone Sultanate",
+      "Tasik",
+      "Mempawah Kingdom",
+      "Sultanate of Siak Sri Indrapura",
+      "Sultanate of Deli",
+      "United States of Indonesia",
+      "Dutch East Indies"
+    ],
+    "replacedBy": []
+  },
+  "Ireland": {
+    "qid": "Q27",
+    "wikidataLabel": "Ireland",
+    "inception": "1937-12-29",
+    "dissolved": null,
+    "replaces": [
+      "Irish Free State"
+    ],
+    "replacedBy": []
+  },
+  "Iceland": {
+    "qid": "Q189",
+    "wikidataLabel": "Iceland",
+    "inception": "1944-06-17",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Cuba": {
+    "qid": "Q241",
+    "wikidataLabel": "Cuba",
+    "inception": "1898-12-10",
+    "dissolved": null,
+    "replaces": [
+      "Republic of Cuba"
+    ],
+    "replacedBy": []
+  },
+  "Cape Verde": {
+    "qid": "Q1011",
+    "wikidataLabel": "Cape Verde",
+    "inception": "1975-07-05",
+    "dissolved": null,
+    "replaces": [
+      "Republic of the Cape Verde Islands"
+    ],
+    "replacedBy": []
+  },
+  "Madagascar (Malagasy)": {
+    "qid": "Q1019",
+    "wikidataLabel": "Madagascar",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "French Madagascar"
+    ],
+    "replacedBy": []
+  },
+  "Turkey (Ottoman Empire)": {
+    "qid": "Q43",
+    "wikidataLabel": "Turkey",
+    "inception": "1923-10-29",
+    "dissolved": null,
+    "replaces": [
+      "Ottoman Empire"
+    ],
+    "replacedBy": []
+  },
+  "Georgia": {
+    "qid": "Q230",
+    "wikidataLabel": "Georgia",
+    "inception": "1991-12-25",
+    "dissolved": null,
+    "replaces": [
+      "Georgian SSR"
+    ],
+    "replacedBy": []
+  },
+  "Netherlands": {
+    "qid": "Q55",
+    "wikidataLabel": "Netherlands",
+    "inception": "1795-01-19",
+    "dissolved": null,
+    "replaces": [
+      "United Kingdom of the Netherlands"
+    ],
+    "replacedBy": []
+  },
+  "Chile": {
+    "qid": "Q298",
+    "wikidataLabel": "Chile",
+    "inception": "1810-09-18",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Egypt": {
+    "qid": "Q79",
+    "wikidataLabel": "Egypt",
+    "inception": "1922-02-28",
+    "dissolved": null,
+    "replaces": [
+      "All-Palestine Government",
+      "Kingdom of Egypt"
+    ],
+    "replacedBy": []
+  },
+  "Russia (Soviet Union)": {
+    "qid": "Q159",
+    "wikidataLabel": "Russia",
+    "inception": "1263-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Soviet Union",
+      "Russian Soviet Federative Socialist Republic"
+    ],
+    "replacedBy": []
+  },
+  "Denmark": {
+    "qid": "Q35",
+    "wikidataLabel": "Denmark",
+    "inception": "0800-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Korea, People's Republic of": {
+    "qid": "Q423",
+    "wikidataLabel": "North Korea",
+    "inception": "1948-09-09",
+    "dissolved": null,
+    "replaces": [
+      "Korea",
+      "People's Committee of North Korea"
+    ],
+    "replacedBy": []
+  },
+  "Belgium": {
+    "qid": "Q31",
+    "wikidataLabel": "Belgium",
+    "inception": "1830-10-04",
+    "dissolved": null,
+    "replaces": [
+      "United Kingdom of the Netherlands"
+    ],
+    "replacedBy": []
+  },
+  "Iran (Persia)": {
+    "qid": "Q794",
+    "wikidataLabel": "Iran",
+    "inception": "1979-04-01",
+    "dissolved": null,
+    "replaces": [
+      "Pahlavi Iran"
+    ],
+    "replacedBy": []
+  },
+  "Azerbaijan": {
+    "qid": "Q227",
+    "wikidataLabel": "Azerbaijan",
+    "inception": "1991-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Azerbaijan Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Costa Rica": {
+    "qid": "Q800",
+    "wikidataLabel": "Costa Rica",
+    "inception": "1821-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Mosquitia"
+    ],
+    "replacedBy": []
+  },
+  "Benin": {
+    "qid": "Q962",
+    "wikidataLabel": "Benin",
+    "inception": "1960-08-01",
+    "dissolved": null,
+    "replaces": [
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Ghana": {
+    "qid": "Q117",
+    "wikidataLabel": "Ghana",
+    "inception": "1957-01-01",
+    "dissolved": null,
+    "replaces": [
+      "British Togoland",
+      "Gold Coast Colony",
+      "Dominion of Ghana"
+    ],
+    "replacedBy": []
+  },
+  "Togo": {
+    "qid": "Q945",
+    "wikidataLabel": "Togo",
+    "inception": "1960-04-27",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Slovenia": {
+    "qid": "Q215",
+    "wikidataLabel": "Slovenia",
+    "inception": "1991-06-25",
+    "dissolved": null,
+    "replaces": [
+      "Socialist Republic of Slovenia",
+      "Socialist Federal Republic of Yugoslavia"
+    ],
+    "replacedBy": []
+  },
+  "Cyprus": {
+    "qid": "Q229",
+    "wikidataLabel": "Cyprus",
+    "inception": "1960-08-16",
+    "dissolved": null,
+    "replaces": [
+      "British Cyprus"
+    ],
+    "replacedBy": [
+      "Turkish Cypriot General Committee"
+    ]
+  },
+  "Saudi Arabia": {
+    "qid": "Q851",
+    "wikidataLabel": "Saudi Arabia",
+    "inception": "1727-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Kingdom of Nejd and Hejaz"
+    ],
+    "replacedBy": []
+  },
+  "India": {
+    "qid": "Q668",
+    "wikidataLabel": "India",
+    "inception": "1947-08-15",
+    "dissolved": null,
+    "replaces": [
+      "Narsinghgarh State",
+      "Dungarpur State",
+      "Jath State",
+      "Miraj Senior",
+      "Raigarh State",
+      "Changbhakar",
+      "Kalsia State",
+      "Nabha State",
+      "Ramdurg State",
+      "Dominion of India",
+      "Nasvadi",
+      "Jaora State",
+      "Jamkhandi State",
+      "Jaitpur State",
+      "Kingdom of Jaisalmer",
+      "Tripura",
+      "Savanur State",
+      "Ratlam State",
+      "Panna State",
+      "Gwalior State",
+      "Alwar State",
+      "Nawanagar State",
+      "Sirmoor State",
+      "Kalahandi State",
+      "Vallabhi",
+      "Morvi State",
+      "Bantva Manavadar State",
+      "Rajpipla State",
+      "Patiala State",
+      "Tonk State",
+      "Baudh State",
+      "Bonai State",
+      "Manipur State",
+      "Kapurthala State",
+      "Cutch State",
+      "Jhabua State",
+      "Jashpur State",
+      "Sachin State",
+      "Udaipur State",
+      "Sailana State",
+      "Faridkot State",
+      "Garhwal Kingdom",
+      "Benares State",
+      "Pahra",
+      "Muli State",
+      "Mohanpur State",
+      "Malerkotla State",
+      "Limbda",
+      "Keonjhar State",
+      "Narsinghpur State",
+      "Pethapur State",
+      "Sawantwadi State",
+      "Radhanpur State",
+      "Bhavnagar State",
+      "Bharatpur State",
+      "Bastar State",
+      "Basoda State",
+      "Bashahr State",
+      "Barwani State",
+      "Samthar State",
+      "Jhalawar State",
+      "Jind State",
+      "Hyderabad State",
+      "Baroda State",
+      "Baraundha State",
+      "Baoni State",
+      "Banswara State",
+      "Bamra State",
+      "Vijaipur State",
+      "Vallbhapur State",
+      "Somna State",
+      "Stok jair State",
+      "Rajpur State, Baroda",
+      "Pathari State",
+      "Patan State, Rajasthan",
+      "Mundru State",
+      "Mohrampur Jagir State",
+      "Vallavpur State",
+      "Lathi State",
+      "Kumharsain State",
+      "Kulpahar State",
+      "Kotharia State, Rajkot",
+      "Kotharia State, Rajasthan",
+      "Bhith Bhagwanpur State",
+      "Balladhdarh State",
+      "Maurha State",
+      "Jasrota",
+      "Angadh Estate",
+      "Varsoda State",
+      "Jeypore Estate",
+      "Tanjung Surat",
+      "Jesar State",
+      "Rajpara State",
+      "Kothi State",
+      "Hindol State",
+      "Gaurihar State",
+      "Dhurwai",
+      "Dedhrota",
+      "Datarpur",
+      "Daspalla",
+      "Bhaisunda",
+      "Beri State",
+      "Ambliara State",
+      "Nayagarh State",
+      "Bijawar State",
+      "Torawati",
+      "Dhenkanal State",
+      "Dhar State",
+      "Dewas State",
+      "Datia State",
+      "Chhatarpur State",
+      "Chamba State",
+      "Cambay State",
+      "Maihar State",
+      "Manda (zamindari)",
+      "Lawa Thikana",
+      "Kutlehar State",
+      "Kishangarh State",
+      "Khilchipur State",
+      "Karauli State",
+      "Kingdom of Marwar",
+      "Jobat State",
+      "Jaswan",
+      "Jaoli State",
+      "Kahlur State",
+      "Bikaner State",
+      "Bhor State",
+      "Bhopal State",
+      "Lakhtar State",
+      "Khandpara State",
+      "Khairagarh State",
+      "Kapshi Estate",
+      "Kamta-Rajaula",
+      "Jigni State",
+      "Jhansi State",
+      "Jawhar State",
+      "Jaso State",
+      "Jambughoda State",
+      "Chaube Jagirs",
+      "Miraj Junior",
+      "Carnatic state",
+      "Loharu State",
+      "Limbdi State",
+      "Kuthar",
+      "Keonthal State",
+      "Kangra-Lambagraon",
+      "Dhami (state)",
+      "Darkoti",
+      "Chhuikhadan State",
+      "Banganapalle State",
+      "Kanker State",
+      "Wadagam State",
+      "Oudh State",
+      "Mayurbhanj State",
+      "Makrai State",
+      "Lunavada State",
+      "Kurundvad Senior",
+      "Kurundvad Junior",
+      "Kharsawan State",
+      "Kawardha State",
+      "Janjira State",
+      "Jalaun State",
+      "Gondal State",
+      "Gangpur State",
+      "Kingdom of Jhalavad",
+      "Orissa Tributary States",
+      "Porbandar State",
+      "Junagadh State",
+      "Kingdom of Mysore",
+      "Wadhwan State",
+      "Rewa State",
+      "Pratapgarh State",
+      "Dhrol State",
+      "Taraon State",
+      "Pataudi",
+      "Chhota Udaipur State",
+      "Malpur State",
+      "Balasinor State",
+      "Athmallik State",
+      "Danta State",
+      "Ranpur State",
+      "Jaipur State",
+      "Tulsipur State",
+      "Ajaigarh State",
+      "Dharampur State",
+      "Chota Nagpur States",
+      "Bundi State",
+      "Bansda",
+      "Babariawad",
+      "Kingdom of Thiruvithamkoor",
+      "Kingdom of Cochin",
+      "Indore State",
+      "Orchha State",
+      "Kingdom of Mewar",
+      "Chuda State",
+      "Sambalpur District",
+      "Guler State",
+      "Surgana State",
+      "Hasht-Bhaiya",
+      "Vijaynagar State",
+      "Talcher State",
+      "Sant State",
+      "Nazargunj",
+      "Khaniadhana State",
+      "Jafarabad State",
+      "British Raj",
+      "Beja State",
+      "Baria State",
+      "Baghal State",
+      "Aundh State",
+      "Athgarh State",
+      "Charkhari State",
+      "Jammu and Kashmir",
+      "Alirajpur State",
+      "Alipura State",
+      "Akkalkot State",
+      "Pudukkottai State",
+      "Thanjavur Maratha kingdom",
+      "Suket State",
+      "Sohawal State",
+      "Rampur State",
+      "Kolhapur State",
+      "Dholpur State",
+      "Idar State",
+      "Bhajji State",
+      "Sandur State",
+      "Baghat State",
+      "Cooch Behar",
+      "Sirohi State",
+      "Sardargarh Bantva",
+      "Saraikela State",
+      "Sakti State",
+      "Rajoli Zamindari Estate",
+      "Piploda State",
+      "Phaltan State",
+      "Palitana State",
+      "Paldeo State",
+      "Palanpur State",
+      "Pal Lahara State",
+      "Nilgiri State",
+      "Mandi State",
+      "Umri",
+      "Tori Fatehpur",
+      "Tigiria State",
+      "Siba State",
+      "Sangri State",
+      "Ranasan State",
+      "Rajouli",
+      "Raghogarh State",
+      "Patdi State",
+      "Wankaner State",
+      "Surguja State",
+      "Sitamau State",
+      "Shahpura State",
+      "Sangli State",
+      "Rajkot State",
+      "Rajgarh State",
+      "Rairakhol State",
+      "Patna State",
+      "Nandgaon State",
+      "Nagod State",
+      "Muhammadgarh State",
+      "Mudhol State",
+      "Sonepur State",
+      "Kota State",
+      "Koriya",
+      "Sarangarh State"
+    ],
+    "replacedBy": []
+  },
+  "Oman": {
+    "qid": "Q842",
+    "wikidataLabel": "Oman",
+    "inception": "1970-07-23",
+    "dissolved": null,
+    "replaces": [
+      "Oman proper"
+    ],
+    "replacedBy": []
+  },
+  "Venezuela": {
+    "qid": "Q717",
+    "wikidataLabel": "Venezuela",
+    "inception": "1811-07-05",
+    "dissolved": null,
+    "replaces": [
+      "Republic of Venezuela",
+      "Gran Colombia"
+    ],
+    "replacedBy": []
+  },
+  "Italy/Sardinia": {
+    "qid": "Q38",
+    "wikidataLabel": "Italy",
+    "inception": "0476-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Kingdom of Italy"
+    ],
+    "replacedBy": []
+  },
+  "Mozambique": {
+    "qid": "Q1029",
+    "wikidataLabel": "Mozambique",
+    "inception": "1975-06-25",
+    "dissolved": null,
+    "replaces": [
+      "People's Republic of Mozambique"
+    ],
+    "replacedBy": []
+  },
+  "Brazil": {
+    "qid": "Q155",
+    "wikidataLabel": "Brazil",
+    "inception": "1822-09-07",
+    "dissolved": null,
+    "replaces": [
+      "Colonial Brazil",
+      "Empire of Brazil",
+      "Republic of the United States of Brazil"
+    ],
+    "replacedBy": []
+  },
+  "Uzbekistan": {
+    "qid": "Q265",
+    "wikidataLabel": "Uzbekistan",
+    "inception": "1991-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Uzbek Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Lithuania": {
+    "qid": "Q37",
+    "wikidataLabel": "Lithuania",
+    "inception": "1990-03-11",
+    "dissolved": null,
+    "replaces": [
+      "Lithuanian Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Albania": {
+    "qid": "Q222",
+    "wikidataLabel": "Albania",
+    "inception": "1912-11-28",
+    "dissolved": null,
+    "replaces": [
+      "People's Socialist Republic of Albania"
+    ],
+    "replacedBy": []
+  },
+  "United States of America": {
+    "qid": "Q30",
+    "wikidataLabel": "United States",
+    "inception": "1784-05-12",
+    "dissolved": null,
+    "replaces": [
+      "United Colonies",
+      "Confederate States of America"
+    ],
+    "replacedBy": []
+  },
+  "Mexico": {
+    "qid": "Q96",
+    "wikidataLabel": "Mexico",
+    "inception": "1810-09-16",
+    "dissolved": null,
+    "replaces": [
+      "Republic of Yucatán",
+      "Restored Republic",
+      "New Spain",
+      "First Mexican Empire"
+    ],
+    "replacedBy": []
+  },
+  "Senegal": {
+    "qid": "Q1041",
+    "wikidataLabel": "Senegal",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "French Community",
+      "French West Africa",
+      "Mali Federation"
+    ],
+    "replacedBy": []
+  },
+  "Tanzania (Tanganyika)": {
+    "qid": "Q924",
+    "wikidataLabel": "Tanzania",
+    "inception": "1964-04-26",
+    "dissolved": null,
+    "replaces": [
+      "Tanganyika",
+      "People's Republic of Zanzibar"
+    ],
+    "replacedBy": []
+  },
+  "Thailand": {
+    "qid": "Q869",
+    "wikidataLabel": "Thailand",
+    "inception": "1238-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Rattanakosin Kingdom"
+    ],
+    "replacedBy": []
+  },
+  "Paraguay": {
+    "qid": "Q733",
+    "wikidataLabel": "Paraguay",
+    "inception": "1811-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Congo": {
+    "qid": "Q971",
+    "wikidataLabel": "Republic of the Congo",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "People's Republic of the Congo"
+    ],
+    "replacedBy": []
+  },
+  "Sweden": {
+    "qid": "Q34",
+    "wikidataLabel": "Sweden",
+    "inception": "0900-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Uruguay": {
+    "qid": "Q77",
+    "wikidataLabel": "Uruguay",
+    "inception": "1825-08-25",
+    "dissolved": null,
+    "replaces": [
+      "Provincia Oriental",
+      "Cisplatina Province"
+    ],
+    "replacedBy": []
+  },
+  "Australia": {
+    "qid": "Q408",
+    "wikidataLabel": "Australia",
+    "inception": "1901-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Equatorial Guinea": {
+    "qid": "Q983",
+    "wikidataLabel": "Equatorial Guinea",
+    "inception": "1968-10-12",
+    "dissolved": null,
+    "replaces": [
+      "Spanish Guinea"
+    ],
+    "replacedBy": []
+  },
+  "Israel": {
+    "qid": "Q801",
+    "wikidataLabel": "Israel",
+    "inception": "1948-05-14",
+    "dissolved": null,
+    "replaces": [
+      "Mandatory Palestine"
+    ],
+    "replacedBy": []
+  },
+  "France": {
+    "qid": "Q142",
+    "wikidataLabel": "France",
+    "inception": "0481-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Free Cities of Menton and Roquebrune",
+      "Kingdom of Bora Bora",
+      "Republic of Bouillon",
+      "Rauracian Republic",
+      "Kingdom of France"
+    ],
+    "replacedBy": []
+  },
+  "Ukraine": {
+    "qid": "Q212",
+    "wikidataLabel": "Ukraine",
+    "inception": "1991-08-24",
+    "dissolved": null,
+    "replaces": [
+      "Ukrainian People's Republic",
+      "Ukrainian Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Nigeria": {
+    "qid": "Q1033",
+    "wikidataLabel": "Nigeria",
+    "inception": "1963-10-01",
+    "dissolved": null,
+    "replaces": [
+      "Federation of Nigeria"
+    ],
+    "replacedBy": []
+  },
+  "Estonia": {
+    "qid": "Q191",
+    "wikidataLabel": "Estonia",
+    "inception": "1918-02-24",
+    "dissolved": null,
+    "replaces": [
+      "Pskov Governorate",
+      "Estonia Governorate",
+      "Livonia Governorate",
+      "Estonian Soviet Socialist Republic",
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Bulgaria": {
+    "qid": "Q219",
+    "wikidataLabel": "Bulgaria",
+    "inception": "1878-07-13",
+    "dissolved": null,
+    "replaces": [
+      "People's Republic of Bulgaria"
+    ],
+    "replacedBy": []
+  },
+  "Finland": {
+    "qid": "Q33",
+    "wikidataLabel": "Finland",
+    "inception": "1917-12-06",
+    "dissolved": null,
+    "replaces": [
+      "Kingdom of Finland"
+    ],
+    "replacedBy": []
+  },
+  "Norway": {
+    "qid": "Q20",
+    "wikidataLabel": "Norway",
+    "inception": "0900-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Liberia": {
+    "qid": "Q1014",
+    "wikidataLabel": "Liberia",
+    "inception": "1822-01-07",
+    "dissolved": null,
+    "replaces": [
+      "Colony of Liberia",
+      "Republic of Maryland"
+    ],
+    "replacedBy": []
+  },
+  "South Africa": {
+    "qid": "Q258",
+    "wikidataLabel": "South Africa",
+    "inception": "1910-05-31",
+    "dissolved": null,
+    "replaces": [
+      "The Apartheid Regime in South Africa"
+    ],
+    "replacedBy": []
+  },
+  "Croatia": {
+    "qid": "Q224",
+    "wikidataLabel": "Croatia",
+    "inception": "1991-06-25",
+    "dissolved": null,
+    "replaces": [
+      "Eastern Slavonia, Baranja and Western Syrmia",
+      "Socialist Republic of Croatia",
+      "Socialist Federal Republic of Yugoslavia"
+    ],
+    "replacedBy": []
+  },
+  "Latvia": {
+    "qid": "Q211",
+    "wikidataLabel": "Latvia",
+    "inception": "1918-11-18",
+    "dissolved": null,
+    "replaces": [
+      "Latvian Socialist Soviet Republic",
+      "Pskov Governorate"
+    ],
+    "replacedBy": []
+  },
+  "Montenegro": {
+    "qid": "Q236",
+    "wikidataLabel": "Montenegro",
+    "inception": "2006-06-03",
+    "dissolved": null,
+    "replaces": [
+      "Serbia and Montenegro",
+      "Republic of Montenegro"
+    ],
+    "replacedBy": []
+  },
+  "Tunisia": {
+    "qid": "Q948",
+    "wikidataLabel": "Tunisia",
+    "inception": "1956-03-20",
+    "dissolved": null,
+    "replaces": [
+      "French protectorate of Tunisia"
+    ],
+    "replacedBy": []
+  },
+  "Qatar": {
+    "qid": "Q846",
+    "wikidataLabel": "Qatar",
+    "inception": "1870-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Guinea-Bissau": {
+    "qid": "Q1007",
+    "wikidataLabel": "Guinea-Bissau",
+    "inception": "1974-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Portuguese Guinea"
+    ],
+    "replacedBy": []
+  },
+  "Guinea": {
+    "qid": "Q1006",
+    "wikidataLabel": "Guinea",
+    "inception": "1958-10-02",
+    "dissolved": null,
+    "replaces": [
+      "French Guinea",
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "China": {
+    "qid": "Q148",
+    "wikidataLabel": "People's Republic of China",
+    "inception": "1949-10-01",
+    "dissolved": null,
+    "replaces": [
+      "Inner Mongolian People's Republic",
+      "Republic of China",
+      "Kingdom Shunzheng"
+    ],
+    "replacedBy": []
+  },
+  "Guyana": {
+    "qid": "Q734",
+    "wikidataLabel": "Guyana",
+    "inception": "1966-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of Guyana"
+    ],
+    "replacedBy": []
+  },
+  "Myanmar (Burma)": {
+    "qid": "Q836",
+    "wikidataLabel": "Myanmar",
+    "inception": "1948-01-04",
+    "dissolved": null,
+    "replaces": [
+      "British rule in Myanmar"
+    ],
+    "replacedBy": []
+  },
+  "Jordan": {
+    "qid": "Q810",
+    "wikidataLabel": "Jordan",
+    "inception": "1946-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Mandatory Palestine"
+    ],
+    "replacedBy": []
+  },
+  "Armenia": {
+    "qid": "Q399",
+    "wikidataLabel": "Armenia",
+    "inception": "1991-09-23",
+    "dissolved": null,
+    "replaces": [
+      "Soviet Union"
+    ],
+    "replacedBy": []
+  },
+  "Libya": {
+    "qid": "Q1016",
+    "wikidataLabel": "Libya",
+    "inception": "1551-08-25",
+    "dissolved": null,
+    "replaces": [
+      "Great Socialist People's Libyan Arab Jamahiriya"
+    ],
+    "replacedBy": []
+  },
+  "Korea, Republic of": {
+    "qid": "Q884",
+    "wikidataLabel": "South Korea",
+    "inception": "1948-08-15",
+    "dissolved": null,
+    "replaces": [
+      "Korea"
+    ],
+    "replacedBy": []
+  },
+  "Syria": {
+    "qid": "Q858",
+    "wikidataLabel": "Syria",
+    "inception": "1920-03-08",
+    "dissolved": null,
+    "replaces": [
+      "Syrian Arab Republic"
+    ],
+    "replacedBy": []
+  },
+  "Vietnam, Democratic Republic of": {
+    "qid": "Q881",
+    "wikidataLabel": "Vietnam",
+    "inception": "1804-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Dai Viet"
+    ],
+    "replacedBy": []
+  },
+  "Colombia": {
+    "qid": "Q739",
+    "wikidataLabel": "Colombia",
+    "inception": "1810-01-01",
+    "dissolved": null,
+    "replaces": [
+      "United States of Colombia",
+      "Mosquitia"
+    ],
+    "replacedBy": []
+  },
+  "Guatemala": {
+    "qid": "Q774",
+    "wikidataLabel": "Guatemala",
+    "inception": "1821-01-01",
+    "dissolved": null,
+    "replaces": [
+      "State of Guatemala"
+    ],
+    "replacedBy": []
+  },
+  "Yemen (Arab Republic of Yemen)": {
+    "qid": "Q805",
+    "wikidataLabel": "Yemen",
+    "inception": "1990-05-22",
+    "dissolved": null,
+    "replaces": [
+      "South Yemen",
+      "Yemen Republic"
+    ],
+    "replacedBy": []
+  },
+  "Algeria": {
+    "qid": "Q262",
+    "wikidataLabel": "Algeria",
+    "inception": "1962-07-03",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Greece": {
+    "qid": "Q41",
+    "wikidataLabel": "Greece",
+    "inception": "1821-04-06",
+    "dissolved": null,
+    "replaces": [
+      "Third Hellenic Republic"
+    ],
+    "replacedBy": []
+  },
+  "Namibia": {
+    "qid": "Q1030",
+    "wikidataLabel": "Namibia",
+    "inception": "1990-01-01",
+    "dissolved": null,
+    "replaces": [
+      "South-West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Mauritania": {
+    "qid": "Q1025",
+    "wikidataLabel": "Mauritania",
+    "inception": "1960-11-28",
+    "dissolved": null,
+    "replaces": [
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Nicaragua": {
+    "qid": "Q811",
+    "wikidataLabel": "Nicaragua",
+    "inception": "1821-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Mosquitia",
+      "State of Nicaragua"
+    ],
+    "replacedBy": []
+  },
+  "Peru": {
+    "qid": "Q419",
+    "wikidataLabel": "Peru",
+    "inception": "1821-07-28",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Panama": {
+    "qid": "Q804",
+    "wikidataLabel": "Panama",
+    "inception": "1903-01-01",
+    "dissolved": null,
+    "replaces": [
+      "United States of Colombia",
+      "Department of Panama"
+    ],
+    "replacedBy": []
+  },
+  "Surinam": {
+    "qid": "Q730",
+    "wikidataLabel": "Suriname",
+    "inception": "1975-11-25",
+    "dissolved": null,
+    "replaces": [
+      "Suriname"
+    ],
+    "replacedBy": []
+  },
+  "Cambodia (Kampuchea)": {
+    "qid": "Q424",
+    "wikidataLabel": "Cambodia",
+    "inception": "1953-11-09",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "El Salvador": {
+    "qid": "Q792",
+    "wikidataLabel": "El Salvador",
+    "inception": "1841-02-02",
+    "dissolved": null,
+    "replaces": [
+      "State of El Salvador"
+    ],
+    "replacedBy": []
+  },
+  "Rwanda": {
+    "qid": "Q1037",
+    "wikidataLabel": "Rwanda",
+    "inception": "1962-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Bangladesh": {
+    "qid": "Q902",
+    "wikidataLabel": "Bangladesh",
+    "inception": "1971-03-26",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Malta": {
+    "qid": "Q233",
+    "wikidataLabel": "Malta",
+    "inception": "1964-09-21",
+    "dissolved": null,
+    "replaces": [
+      "State of Malta",
+      "Crown Colony of Malta"
+    ],
+    "replacedBy": []
+  },
+  "Cote D'Ivoire": {
+    "qid": "Q1008",
+    "wikidataLabel": "Ivory Coast",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "French Ivory Coast",
+      "French West Africa"
+    ],
+    "replacedBy": []
+  },
+  "Bosnia-Herzegovina": {
+    "qid": "Q225",
+    "wikidataLabel": "Bosnia and Herzegovina",
+    "inception": "1992-03-01",
+    "dissolved": null,
+    "replaces": [
+      "Republic of Bosnia and Herzegovina",
+      "Socialist Federal Republic of Yugoslavia"
+    ],
+    "replacedBy": []
+  },
+  "Gambia": {
+    "qid": "Q1005",
+    "wikidataLabel": "The Gambia",
+    "inception": "1965-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of the Gambia"
+    ],
+    "replacedBy": []
+  },
+  "Rumania": {
+    "qid": "Q218",
+    "wikidataLabel": "Romania",
+    "inception": "1859-02-05",
+    "dissolved": null,
+    "replaces": [
+      "Socialist Republic of Romania",
+      "United Principalities of Moldavia and Wallachia"
+    ],
+    "replacedBy": []
+  },
+  "Malaysia": {
+    "qid": "Q833",
+    "wikidataLabel": "Malaysia",
+    "inception": "1963-09-16",
+    "dissolved": null,
+    "replaces": [
+      "Federation of Malaya",
+      "Crown Colony of Sarawak",
+      "North Borneo"
+    ],
+    "replacedBy": []
+  },
+  "Honduras": {
+    "qid": "Q783",
+    "wikidataLabel": "Honduras",
+    "inception": "1821-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Mosquitia",
+      "State of Honduras"
+    ],
+    "replacedBy": []
+  },
+  "Somalia": {
+    "qid": "Q1045",
+    "wikidataLabel": "Somalia",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Somali Democratic Republic"
+    ],
+    "replacedBy": []
+  },
+  "Kenya": {
+    "qid": "Q114",
+    "wikidataLabel": "Kenya",
+    "inception": "1963-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Kenya (1963–1964)"
+    ],
+    "replacedBy": []
+  },
+  "Djibouti": {
+    "qid": "Q977",
+    "wikidataLabel": "Djibouti",
+    "inception": "1977-06-23",
+    "dissolved": null,
+    "replaces": [
+      "French Territory of the Afars and the Issas"
+    ],
+    "replacedBy": []
+  },
+  "Kuwait": {
+    "qid": "Q817",
+    "wikidataLabel": "Kuwait",
+    "inception": "1991-02-26",
+    "dissolved": null,
+    "replaces": [
+      "British protectorate",
+      "Republic of Kuwait"
+    ],
+    "replacedBy": []
+  },
+  "Portugal": {
+    "qid": "Q45",
+    "wikidataLabel": "Portugal",
+    "inception": "1128-07-01",
+    "dissolved": null,
+    "replaces": [
+      "Portuguese Empire",
+      "Kingdom of Portugal"
+    ],
+    "replacedBy": []
+  },
+  "Brunei": {
+    "qid": "Q921",
+    "wikidataLabel": "Brunei",
+    "inception": "1368-01-01",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Argentina": {
+    "qid": "Q414",
+    "wikidataLabel": "Argentina",
+    "inception": "1816-07-09",
+    "dissolved": null,
+    "replaces": [
+      "United Provinces of the Río de la Plata",
+      "Colonial Argentina"
+    ],
+    "replacedBy": []
+  },
+  "Lebanon": {
+    "qid": "Q822",
+    "wikidataLabel": "Lebanon",
+    "inception": "1943-11-22",
+    "dissolved": null,
+    "replaces": [
+      "Lebanese Republic under French mandate"
+    ],
+    "replacedBy": []
+  },
+  "Angola": {
+    "qid": "Q916",
+    "wikidataLabel": "Angola",
+    "inception": "1992-08-25",
+    "dissolved": null,
+    "replaces": [
+      "People's Republic of Angola"
+    ],
+    "replacedBy": []
+  },
+  "Cameroon": {
+    "qid": "Q1009",
+    "wikidataLabel": "Cameroon",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Cameroon",
+      "Republic of Cameroon (1960-1961)",
+      "United Republic of Cameroon"
+    ],
+    "replacedBy": []
+  },
+  "Sudan": {
+    "qid": "Q1049",
+    "wikidataLabel": "Sudan",
+    "inception": "1956-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Republic of Sudan",
+      "Anglo-Egyptian Sudan"
+    ],
+    "replacedBy": []
+  },
+  "Gabon": {
+    "qid": "Q1000",
+    "wikidataLabel": "Gabon",
+    "inception": "1960-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Middle Congo"
+    ],
+    "replacedBy": []
+  },
+  "Iraq": {
+    "qid": "Q796",
+    "wikidataLabel": "Iraq",
+    "inception": "1932-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Coalition Provisional Authority"
+    ],
+    "replacedBy": []
+  },
+  "United Arab Emirates": {
+    "qid": "Q878",
+    "wikidataLabel": "United Arab Emirates",
+    "inception": "1971-01-01",
+    "dissolved": null,
+    "replaces": [
+      "Trucial States"
+    ],
+    "replacedBy": []
+  },
+  "Ecuador": {
+    "qid": "Q736",
+    "wikidataLabel": "Ecuador",
+    "inception": "1840-02-16",
+    "dissolved": null,
+    "replaces": [
+      "Gran Colombia"
+    ],
+    "replacedBy": []
+  },
+  "German Federal Republic": {
+    "qid": "Q183",
+    "wikidataLabel": "Germany",
+    "inception": "1949-05-23",
+    "dissolved": null,
+    "replaces": [
+      "Trizone",
+      "German Reich",
+      "West Germany",
+      "German Democratic Republic"
+    ],
+    "replacedBy": []
+  },
+  "Congo, Democratic Republic of (Zaire)": {
+    "qid": "Q974",
+    "wikidataLabel": "Democratic Republic of the Congo",
+    "inception": "1960-06-30",
+    "dissolved": null,
+    "replaces": [
+      "Zaire"
+    ],
+    "replacedBy": []
+  },
+  "Poland": {
+    "qid": "Q36",
+    "wikidataLabel": "Poland",
+    "inception": "1918-11-11",
+    "dissolved": null,
+    "replaces": [
+      "Rada Narodowa Księstwa Cieszyńskiego",
+      "Regency Council",
+      "Congress Poland",
+      "Polish People's Republic",
+      "Republic of Tarnobrzeg"
+    ],
+    "replacedBy": []
+  },
+  "Pakistan": {
+    "qid": "Q843",
+    "wikidataLabel": "Pakistan",
+    "inception": "1947-08-14",
+    "dissolved": null,
+    "replaces": [
+      "presidencies and provinces in British India",
+      "Dominion of Pakistan",
+      "British Raj"
+    ],
+    "replacedBy": []
+  },
+  "Eritrea": {
+    "qid": "Q986",
+    "wikidataLabel": "Eritrea",
+    "inception": "1993-05-24",
+    "dissolved": null,
+    "replaces": [],
+    "replacedBy": []
+  },
+  "Morocco": {
+    "qid": "Q1028",
+    "wikidataLabel": "Morocco",
+    "inception": "0789-01-01",
+    "dissolved": null,
+    "replaces": [
+      "French protectorate in Morocco",
+      "Spanish protectorate in Morocco",
+      "Spanish Sahara"
+    ],
+    "replacedBy": []
+  },
+  "Canada": {
+    "qid": "Q16",
+    "wikidataLabel": "Canada",
+    "inception": "1867-07-01",
+    "dissolved": null,
+    "replaces": [
+      "Province of Canada"
+    ],
+    "replacedBy": []
+  },
+  "Sierra Leone": {
+    "qid": "Q1044",
+    "wikidataLabel": "Sierra Leone",
+    "inception": "1971-04-19",
+    "dissolved": null,
+    "replaces": [
+      "Commonwealth realm of Sierra Leone"
+    ],
+    "replacedBy": []
+  }
+}
