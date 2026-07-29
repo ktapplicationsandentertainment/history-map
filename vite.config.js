@@ -4,7 +4,8 @@ module.exports = {
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
+        landing: resolve(__dirname, 'index.html'),
+        map: resolve(__dirname, 'map.html'),
         methodology: resolve(__dirname, 'methodology.html'),
       },
     },

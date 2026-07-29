@@ -3,15 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Historical Boundaries Map</title>
-    <link rel="stylesheet" href="/src/style.css" />
+
+    <title>Historical Boundaries Map — Interactive World History Atlas</title>
+    <meta
+      name="description"
+      content="Explore world political borders at any point in history, from roughly 123,000 BCE to today. A free, interactive historical map and atlas — no signup, built for classrooms and curious minds."
+    />
+    <meta name="keywords" content="historical map, world history atlas, historical boundaries, interactive history map, political borders through time, history timeline map, free history teaching resource" />
+    <link rel="canonical" href="https://history-map-afh.pages.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Historical Boundaries Map — Interactive World History Atlas" />
+    <meta property="og:description" content="Explore world political borders at any point in history, from roughly 123,000 BCE to today. Free, interactive, no signup." />
+    <meta property="og:url" content="https://history-map-afh.pages.dev/" />
+    <meta property="og:image" content="https://history-map-afh.pages.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Historical Boundaries Map — Interactive World History Atlas" />
+    <meta name="twitter:description" content="Explore world political borders at any point in history, from roughly 123,000 BCE to today. Free, interactive, no signup." />
+    <meta name="twitter:image" content="https://history-map-afh.pages.dev/og-image.png" />
+
+    <link rel="stylesheet" href="/src/methodology.css" />
+    <link rel="stylesheet" href="/src/landing.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Historical Boundaries Map",
+        "url": "https://history-map-afh.pages.dev/map.html",
+        "description": "An interactive map of the world's political boundaries at any point in history, from roughly 123,000 BCE to today.",
+        "applicationCategory": "EducationApplication",
+        "isAccessibleForFree": true,
+        "browserRequirements": "Requires JavaScript"
+      }
+    </script>
   </head>
-  <body>
-    <div id="map"></div>
-    <div id="init-loading" class="init-loading">
-      <div class="init-loading-spinner"></div>
-      <div>Loading historical map data&hellip;</div>
-    </div>
-    <script type="module" src="/src/main.js"></script>
+  <body class="methodology-body">
+    <main class="methodology landing">
+      <h1>Historical Boundaries Map</h1>
+      <p class="lede">
+        See the world's political borders at any point in history &mdash; from prehistoric
+        migrations to the present day &mdash; on one interactive, whole-world map. Drag a slider,
+        watch empires rise and fall, click any region for its story. Free, no signup, built to be
+        useful in an actual history classroom.
+      </p>
+
+      <a href="/map.html" class="cta-button">Launch the Interactive Map &rarr;</a>
+
+      <h2>What you can do with it</h2>
+      <p>
+        Move the year control anywhere from roughly <strong>123,000 BCE to 2019 CE</strong> and
+        watch the whole world's political map redraw itself &mdash; empires expanding and
+        collapsing, colonial borders shifting, new nations appearing after independence and
+        decolonization. Click any region to see its name, which power it was subject to, roughly
+        how long it existed, and &mdash; for hundreds of well-documented countries &mdash; real
+        recorded history: predecessor and successor states, and day-precise boundary-change dates
+        sourced from community-mapped historical records.
+      </p>
+      <p>
+        Want to show it to a class or share a specific moment? Every view has its own link &mdash;
+        jump to 1815 after the Congress of Vienna, 1945 after WWII, or 1960 in the middle of
+        African decolonization, and the URL captures exactly that year. There's also a built-in
+        tool to record a play-through across any range of years as a downloadable video, for
+        dropping straight into a lesson or a presentation.
+      </p>
+
+      <h2>Built for the classroom, not just for fun</h2>
+      <p>
+        This started as a personal passion project and grew into something meant to hold up as an
+        actual teaching resource: no account walls, no ads, no dark patterns &mdash; just a map.
+        Every data source is documented, every known limitation is written down rather than
+        hidden, and the boundary data itself comes from a combination of academic and
+        community-maintained historical GIS datasets, cross-checked against each other. Read the
+        <a href="/methodology.html">full methodology and data sources</a> before citing anything
+        here in serious research &mdash; it's a genuinely useful map, not a peer-reviewed atlas.
+      </p>
+
+      <a href="/map.html" class="cta-button cta-secondary">Launch the Interactive Map &rarr;</a>
+
+      <p class="footer-note">
+        <a href="https://github.com/ktapplicationsandentertainment/history-map" target="_blank" rel="noopener">Source code on GitHub</a>
+        &nbsp;&middot;&nbsp;
+        <a href="https://buymeacoffee.com/kellydt" target="_blank" rel="noopener">Buy me a coffee</a>
+      </p>
+    </main>
   </body>
 </html>

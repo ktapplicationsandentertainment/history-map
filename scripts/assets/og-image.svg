@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16324a"/>
+      <stop offset="100%" stop-color="#0d1f30"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- abstract "countries" evoking the app's colored-polygon look, not real geography -->
+  <g opacity="0.85">
+    <path d="M60 420 L140 380 L220 400 L250 460 L200 520 L110 510 L50 470 Z" fill="hsl(20,65%,48%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M230 380 L300 350 L360 390 L340 440 L270 450 Z" fill="hsl(140,65%,42%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M330 300 L420 270 L470 320 L440 380 L360 385 L340 340 Z" fill="hsl(280,55%,52%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M470 260 L560 230 L610 270 L580 330 L500 340 L460 300 Z" fill="hsl(45,70%,50%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M600 220 L700 200 L760 240 L740 300 L660 310 L610 270 Z" fill="hsl(0,60%,50%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M760 250 L860 240 L900 300 L850 350 L780 330 L750 290 Z" fill="hsl(200,60%,48%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M880 300 L960 320 L980 380 L920 420 L860 390 Z" fill="hsl(100,50%,45%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M980 250 L1060 260 L1090 310 L1040 340 L990 310 Z" fill="hsl(320,55%,52%)" stroke="#0d1f30" stroke-width="2"/>
+    <path d="M540 350 L610 340 L630 400 L580 440 L520 410 Z" fill="hsl(170,55%,42%)" stroke="#0d1f30" stroke-width="2"/>
+  </g>
+
+  <text x="60" y="140" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#ffffff">Historical Boundaries Map</text>
+  <text x="60" y="185" font-family="system-ui, sans-serif" font-size="28" fill="#cfe0ee">Explore ~125,000 years of world political borders &#8212; free &amp; interactive</text>
+
+  <g font-family="system-ui, sans-serif" font-size="22" fill="#a8c3da">
+    <text x="60" y="580">history-map-afh.pages.dev</text>
+  </g>
+</svg>

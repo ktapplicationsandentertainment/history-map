@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://history-map-afh.pages.dev/sitemap.xml

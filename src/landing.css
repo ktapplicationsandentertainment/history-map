@@ -1,0 +1,28 @@
+.landing h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.landing .lede {
+  font-size: 19px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 18px 0 8px;
+  padding: 14px 28px;
+  background: #2563a8;
+  color: #fff !important;
+  font: 700 18px system-ui, sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.cta-button:hover {
+  background: #1d4d82;
+}
+
+.cta-secondary {
+  margin-top: 8px;
+}

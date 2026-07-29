@@ -24,6 +24,11 @@
   text-decoration: underline;
 }
 
+.back-link-secondary {
+  margin-left: 16px;
+  color: #666;
+}
+
 .methodology h1 {
   font-size: 32px;
   margin: 0 0 12px;

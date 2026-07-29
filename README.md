@@ -4,6 +4,16 @@ See [`historical-boundaries-map-plan.md`](historical-boundaries-map-plan.md) for
 
 All of the original build order (steps 1–7: audit, pipeline, map shell, year control, popup, URL state, polish) is done, plus all three phases of the expansion plan.
 
+## Site structure (as of 2026-07-29)
+
+Three pages, deliberately split for SEO: the interactive app has almost no crawlable text (it's a JS-rendered map), so it can't carry search/social-preview duty itself.
+
+- `/` (`index.html`) — the SEO landing page: real prose, Open Graph/Twitter meta tags, JSON-LD, `og-image.png`. This is what search engines and link previews should show.
+- `/map.html` — the actual interactive map (former `index.html`). Marked `noindex, follow` so it doesn't compete with the landing page for search ranking.
+- `/methodology.html` — unchanged.
+
+`?year=` links now live on `/map.html`, not `/` (e.g. `/map.html?year=1815`). `robots.txt` and `sitemap.xml` (listing `/` and `/methodology.html` only — not the noindexed map) live in `public/`.
+
 ## Running it
 
 ```
