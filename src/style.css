@@ -243,3 +243,62 @@ html, body {
 .about-close:hover {
   color: #000;
 }
+
+.video-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.video-field select {
+  font: 14px system-ui, sans-serif;
+  padding: 3px 6px;
+}
+
+.video-record-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  background: #2563a8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font: 600 14px system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.video-record-btn:hover:not(:disabled) {
+  background: #1d4d82;
+}
+
+.video-record-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.video-status {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #444;
+  min-height: 16px;
+}
+
+.video-result {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.video-result-link {
+  font-size: 13px;
+  color: #0645ad;
+  text-decoration: none;
+}
+
+.video-result-link:hover {
+  text-decoration: underline;
+}

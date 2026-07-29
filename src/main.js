@@ -322,6 +322,42 @@ const AboutControl = L.Control.extend({
   },
 });
 
+// Video control: records a play-through from a start to an end year using
+// the browser's own tab-capture (getDisplayMedia + MediaRecorder), not a
+// hand-rolled canvas renderer. The map draws through three different
+// mechanisms — basemap tiles (<img>), boundaries (SVG), labels (DOM
+// tooltips) — so faithfully recreating all three on a canvas would mean
+// re-implementing a chunk of Leaflet's own rendering. Capturing the real
+// rendered tab is simpler and guaranteed to match what's actually on
+// screen, at the cost of one native "share this tab" permission prompt per
+// recording (unavoidable for any screen/tab capture API).
+const VideoControl = L.Control.extend({
+  options: { position: 'topright' },
+
+  onAdd() {
+    const container = L.DomUtil.create('div', 'video-control');
+    container.innerHTML = `
+      <button type="button" id="video-toggle" class="about-toggle">Make a video</button>
+      <div id="video-panel" class="about-panel" hidden>
+        <button type="button" id="video-close" class="about-close" aria-label="Close">&times;</button>
+        <h3>Make a video</h3>
+        <label class="video-field">Start year<select id="video-start-year"></select></label>
+        <label class="video-field">End year<select id="video-end-year"></select></label>
+        <label class="labels-toggle-row"><input type="checkbox" id="video-labels-toggle" checked /> Include labels</label>
+        <button type="button" id="video-record-btn" class="video-record-btn">Record</button>
+        <div id="video-status" class="video-status"></div>
+        <div id="video-result" class="video-result" hidden>
+          <a id="video-open-link" class="video-result-link" target="_blank" rel="noopener">Open in new tab &#8599;</a>
+          <a id="video-download-link" class="video-result-link" download="history-map.webm">Download video</a>
+        </div>
+      </div>
+    `;
+    L.DomEvent.disableClickPropagation(container);
+    L.DomEvent.disableScrollPropagation(container);
+    return container;
+  },
+});
+
 async function init() {
   const [manifestRes, entityRangesRes, wikidataRes] = await Promise.all([
     fetch('/data/manifest.json'),
@@ -341,6 +377,7 @@ async function init() {
 
   new YearControl().addTo(map);
   new AboutControl().addTo(map);
+  new VideoControl().addTo(map);
 
   const aboutToggle = document.getElementById('about-toggle');
   const aboutPanel = document.getElementById('about-panel');
@@ -410,6 +447,123 @@ async function init() {
     loadYear(activeYear, { showLabels: labelsEnabled }).catch((err) => {
       console.error(err);
       showLoadError(activeYear);
+    });
+  });
+
+  // Video control
+  const videoToggle = document.getElementById('video-toggle');
+  const videoPanel = document.getElementById('video-panel');
+  videoToggle.addEventListener('click', () => {
+    videoPanel.hidden = !videoPanel.hidden;
+  });
+  document.getElementById('video-close').addEventListener('click', () => {
+    videoPanel.hidden = true;
+  });
+
+  const videoStartSelect = document.getElementById('video-start-year');
+  const videoEndSelect = document.getElementById('video-end-year');
+  for (const y of years) {
+    const option = `<option value="${y}">${formatYear(y)}</option>`;
+    videoStartSelect.insertAdjacentHTML('beforeend', option);
+    videoEndSelect.insertAdjacentHTML('beforeend', option);
+  }
+  videoStartSelect.value = years[0];
+  videoEndSelect.value = years[years.length - 1];
+
+  const VIDEO_FRAME_HOLD_MS = 700; // how long each year stays on screen while recording
+
+  function wait(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  async function recordVideo({ startYear, endYear, includeLabels }) {
+    const statusEl = document.getElementById('video-status');
+    const resultEl = document.getElementById('video-result');
+    const recordBtn = document.getElementById('video-record-btn');
+    resultEl.hidden = true;
+    statusEl.textContent = '';
+
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia || typeof MediaRecorder === 'undefined') {
+      statusEl.textContent = "Video recording isn't supported in this browser.";
+      return;
+    }
+
+    const startIdx = years.indexOf(startYear);
+    const endIdx = years.indexOf(endYear);
+    if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
+      statusEl.textContent = 'Pick a start year at or before the end year.';
+      return;
+    }
+    const rangeYears = years.slice(startIdx, endIdx + 1);
+
+    let stream;
+    try {
+      stream = await navigator.mediaDevices.getDisplayMedia({ video: { displaySurface: 'browser' }, audio: false });
+    } catch (err) {
+      statusEl.textContent = 'Recording cancelled — screen-share permission was not granted.';
+      return;
+    }
+
+    const mimeType = ['video/webm;codecs=vp9', 'video/webm'].find((t) => MediaRecorder.isTypeSupported(t)) || 'video/webm';
+    const recorder = new MediaRecorder(stream, { mimeType });
+    const chunks = [];
+    recorder.ondataavailable = (e) => {
+      if (e.data.size > 0) chunks.push(e.data);
+    };
+    const recordingStopped = new Promise((resolve) => {
+      recorder.onstop = resolve;
+    });
+
+    // If the user ends sharing via the browser's own "Stop sharing" control,
+    // treat that as "finish now" rather than leaving the loop to run past a
+    // dead track.
+    const track = stream.getVideoTracks()[0];
+    const userStoppedSharing = new Promise((resolve) => track.addEventListener('ended', resolve));
+
+    recordBtn.disabled = true;
+    videoStartSelect.disabled = true;
+    videoEndSelect.disabled = true;
+
+    recorder.start();
+    for (let i = 0; i < rangeYears.length; i++) {
+      if (track.readyState === 'ended') break;
+      const year = rangeYears[i];
+      statusEl.textContent = `Recording... ${formatYear(year)} (${i + 1}/${rangeYears.length})`;
+      await loadYear(year, { showLabels: includeLabels }).catch(() => {});
+      await Promise.race([wait(VIDEO_FRAME_HOLD_MS), userStoppedSharing]);
+    }
+
+    if (recorder.state !== 'inactive') recorder.stop();
+    stream.getTracks().forEach((t) => t.stop());
+    await recordingStopped;
+
+    recordBtn.disabled = false;
+    videoStartSelect.disabled = false;
+    videoEndSelect.disabled = false;
+
+    if (chunks.length === 0) {
+      statusEl.textContent = 'Recording produced no data — try again.';
+    } else {
+      const blob = new Blob(chunks, { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const downloadLink = document.getElementById('video-download-link');
+      document.getElementById('video-open-link').href = url;
+      downloadLink.href = url;
+      downloadLink.download = `history-map-${startYear}-to-${endYear}.webm`;
+      statusEl.textContent = 'Done.';
+      resultEl.hidden = false;
+    }
+
+    // Recording plays through with its own label choice, independent of the
+    // live map's — put the live map back to what it was actually showing.
+    await loadYear(activeYear, { showLabels: labelsEnabled }).catch(() => {});
+  }
+
+  document.getElementById('video-record-btn').addEventListener('click', () => {
+    recordVideo({
+      startYear: Number(videoStartSelect.value),
+      endYear: Number(videoEndSelect.value),
+      includeLabels: document.getElementById('video-labels-toggle').checked,
     });
   });
 
