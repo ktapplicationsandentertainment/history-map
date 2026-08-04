@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On This Day in History — Historical Boundaries Map</title>
+    <meta
+      name="description"
+      content="Real historical border changes, independences, and dissolutions that happened on today's date — pulled from OpenHistoricalMap and Wikidata, with a direct link to see each one on the map."
+    />
+    <link rel="canonical" href="https://history-map-afh.pages.dev/on-this-day" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="On This Day in History — Historical Boundaries Map" />
+    <meta property="og:description" content="Real historical border changes that happened on today's date, with a link to see each one on the map." />
+    <meta property="og:url" content="https://history-map-afh.pages.dev/on-this-day" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/methodology.css" />
+    <link rel="stylesheet" href="/src/on-this-day.css" />
+  </head>
+  <body class="methodology-body">
+    <main class="methodology on-this-day">
+      <a href="/" class="back-link">&larr; Back to the map</a>
+      <h1>On this day in history</h1>
+      <p class="lede">
+        Real, dated border changes, independences, and dissolutions &mdash; sourced from
+        <a href="https://www.openhistoricalmap.org/" target="_blank" rel="noopener">OpenHistoricalMap</a>
+        and <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>, not
+        generated. Every one links to that exact year on the map.
+      </p>
+
+      <div class="date-nav">
+        <button type="button" id="prev-day" aria-label="Previous day">&larr;</button>
+        <div id="date-heading" class="date-heading"></div>
+        <button type="button" id="next-day" aria-label="Next day">&rarr;</button>
+      </div>
+
+      <div id="facts-list" class="facts-list"></div>
+
+      <p class="footer-note">
+        Only dates with a real recorded day (not just a year) appear here &mdash; most days have
+        a handful of facts, some have none. See the
+        <a href="/methodology.html">methodology page</a> for how these are sourced.
+      </p>
+    </main>
+    <script type="module" src="/src/on-this-day.js"></script>
+  </body>
+</html>

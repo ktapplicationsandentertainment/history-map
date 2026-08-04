@@ -21,12 +21,15 @@ npm install
 npm run build-all-data   # pulls aourednik + CShapes, rebuilds year files + manifest
 npm run pull-ohm && npm run build-ohm && npm run build-manifest   # optional: patch in OHM boundaries (see below)
 npm run build-wikidata                                            # optional: Wikidata date/succession enrichment
+npm run build-onthisday                                           # optional: "on this day" facts, needs .cache/ohm/ from pull-ohm
 npm run dev               # starts the map at localhost:5174 (or whatever port is free)
 ```
 
 `npm run build` is reserved for Vite's own production bundle (`vite build`, outputs to `dist/`) — the data pipeline is `build-all-data`, a separate, deliberately-not-automatic step (see "Going live" below for why).
 
-Individual data-pipeline steps: `pull-source` (aourednik, clones/updates `.cache/historical-basemaps`) → `build-data` (aourednik years) → `pull-cshapes` (downloads `.cache/cshapes/CShapes-2.0.geojson`, cached — delete it to force a re-fetch) → `build-cshapes` (CShapes years) → `build-manifest` (scans everything on disk in `public/data/years/` and (re)builds `manifest.json` + `entity-ranges.json`). Order matters for a clean build: manifest must run last since it just reflects whatever's already on disk. `pull-ohm`/`build-ohm` and `build-wikidata` are separate, optional enrichment passes — not part of `build-all-data` since both depend on third-party network services the core map data shouldn't be blocked by; run `build-manifest` again after either.
+Individual data-pipeline steps: `pull-source` (aourednik, clones/updates `.cache/historical-basemaps`) → `build-data` (aourednik years) → `pull-cshapes` (downloads `.cache/cshapes/CShapes-2.0.geojson`, cached — delete it to force a re-fetch) → `build-cshapes` (CShapes years) → `build-manifest` (scans everything on disk in `public/data/years/` and (re)builds `manifest.json` + `entity-ranges.json`). Order matters for a clean build: manifest must run last since it just reflects whatever's already on disk. `pull-ohm`/`build-ohm`, `build-wikidata`, and `build-onthisday` are separate, optional enrichment passes — not part of `build-all-data` since they depend on third-party network services the core map data shouldn't be blocked by; run `build-manifest` again after `build-ohm`.
+
+**`build-onthisday.js` (2026-08-04) needs `.cache/ohm/geometry-batches/` from `pull-ohm` to already exist** — it reads the raw cached OHM tags directly (for `start_event`/`end_event` descriptive text that isn't preserved in the shipped year files) rather than the patched map data. If you delete/refetch `.cache/ohm/` for any reason (e.g. the matched-relation list changed), delete the whole `geometry-batches/` directory first rather than letting stale batch files linger — found and fixed a real duplicate-facts bug caused by exactly that (a relation cached under two different batch-index files after a re-run). Both `build-ohm.js` and `build-onthisday.js` now also defensively dedupe by relation ID and by fact content respectively, but a clean cache is still the right fix, not just a safety net.
 
 ## What it produces
 

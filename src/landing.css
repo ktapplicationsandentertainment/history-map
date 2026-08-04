@@ -27,6 +27,18 @@
   margin-top: 8px;
 }
 
+.cta-tertiary {
+  background: #fff;
+  color: #2563a8 !important;
+  border: 2px solid #2563a8;
+  box-shadow: none;
+  margin-left: 10px;
+}
+
+.cta-tertiary:hover {
+  background: #eef4fb;
+}
+
 .faq-item {
   margin-bottom: 22px;
   padding-bottom: 18px;

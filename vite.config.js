@@ -7,6 +7,7 @@ module.exports = {
         landing: resolve(__dirname, 'index.html'),
         map: resolve(__dirname, 'map.html'),
         methodology: resolve(__dirname, 'methodology.html'),
+        onThisDay: resolve(__dirname, 'on-this-day.html'),
       },
     },
   },

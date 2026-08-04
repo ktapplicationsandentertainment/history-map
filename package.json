@@ -12,6 +12,7 @@
     "build-wikidata": "node scripts/build-wikidata-matches.js",
     "pull-ohm": "node scripts/pull-ohm.js",
     "build-ohm": "node scripts/build-ohm.js",
+    "build-onthisday": "node scripts/build-onthisday.js",
     "build-all-data": "npm run pull-source && npm run build-data && npm run pull-cshapes && npm run build-cshapes && npm run build-manifest",
     "dev": "vite",
     "build": "vite build",

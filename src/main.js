@@ -313,7 +313,7 @@ const AboutControl = L.Control.extend({
           <li>A gold outline means that specific boundary's exact shape and dates come from <a href="https://www.openhistoricalmap.org/" target="_blank" rel="noopener">OpenHistoricalMap</a> (CC0), a community-mapped project &mdash; day-precise where it's mapped, but coverage is very uneven: some entities have decades of detailed boundary history, most have none, which is why only some regions show the gold outline.</li>
           <li>Before 1886, a few entities are known to be missing due to broken source geometry &mdash; see the project's data audit notes for specifics.</li>
         </ul>
-        <p><a href="/methodology.html">Full methodology &amp; known limitations &#8599;</a> &middot; <a href="/">About / home page</a></p>
+        <p><a href="/methodology.html">Full methodology &amp; known limitations &#8599;</a> &middot; <a href="/on-this-day.html">On this day in history &#8599;</a> &middot; <a href="/">About / home page</a></p>
       </div>
     `;
     L.DomEvent.disableClickPropagation(container);
