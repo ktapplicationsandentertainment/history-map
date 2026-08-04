@@ -34,6 +34,11 @@ function parseOhmDate(str) {
 function loadOhmCandidates() {
   const geomFiles = fs.readdirSync(GEOM_DIR).filter((f) => f.endsWith('.json'));
   const candidatesByName = new Map(); // ourName -> [{ geometry, startMs, endMs, startRaw, endRaw, sourceRelationId }]
+  // Batch files are cached per-fetch by index (see pull-ohm.js) — if the
+  // matched-ID list changes between runs and old batches aren't cleared,
+  // the same relation can end up cached under two different batch files
+  // (found 2026-08-04 via on-this-day content showing duplicate facts).
+  const seenRelationIds = new Set();
 
   for (const file of geomFiles) {
     const batch = JSON.parse(fs.readFileSync(path.join(GEOM_DIR, file), 'utf8'));
@@ -42,6 +47,8 @@ function loadOhmCandidates() {
       // osmtogeojson also emits standalone Point features for member nodes
       // (e.g. admin_centre) — only the boundary polygon itself is useful here.
       if (f.geometry.type !== 'Polygon' && f.geometry.type !== 'MultiPolygon') continue;
+      if (seenRelationIds.has(f.id)) continue;
+      seenRelationIds.add(f.id);
       const props = f.properties;
       const rawName = props['name:en'] || props.name;
       if (!rawName) continue;
