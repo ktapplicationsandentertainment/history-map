@@ -1,0 +1,81 @@
+.lifetime-body {
+  height: auto;
+  overflow-y: auto;
+  background: #fafaf7;
+  color: #1a1a1a;
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+.lifetime {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.back-link {
+  color: #0645ad;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.lifetime h1 {
+  font-size: 28px;
+  margin: 16px 0 8px;
+}
+
+.lede {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.birth-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.birth-form select {
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.birth-form button {
+  background: #2563a8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font: 700 15px system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.birth-form button:disabled {
+  opacity: 0.6;
+}
+
+#render-canvas {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #aad3df;
+}
+
+.status {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #444;
+  min-height: 18px;
+}
+
+.result {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.result a {
+  color: #0645ad;
+  font-size: 14px;
+}

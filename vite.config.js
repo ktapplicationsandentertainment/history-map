@@ -8,6 +8,7 @@ module.exports = {
         map: resolve(__dirname, 'map.html'),
         methodology: resolve(__dirname, 'methodology.html'),
         onThisDay: resolve(__dirname, 'on-this-day.html'),
+        lifetime: resolve(__dirname, 'lifetime.html'),
       },
     },
   },

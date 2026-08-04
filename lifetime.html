@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The World in Your Lifetime — Historical Boundaries Map</title>
+    <meta
+      name="description"
+      content="Enter your birth year and get a video of how the world's borders have changed since you were born. Free, shareable, works on mobile."
+    />
+    <link rel="canonical" href="https://history-map-afh.pages.dev/lifetime" />
+    <link rel="stylesheet" href="/src/lifetime.css" />
+  </head>
+  <body class="lifetime-body">
+    <main class="lifetime">
+      <a href="/" class="back-link">&larr; Back to the map</a>
+      <h1>The world in your lifetime</h1>
+      <p class="lede">Enter your birth year. Get a video of how the world's borders have changed since.</p>
+
+      <div class="birth-form">
+        <select id="birth-year"></select>
+        <button type="button" id="generate-btn">Generate video</button>
+      </div>
+
+      <canvas id="render-canvas" width="960" height="540"></canvas>
+
+      <div id="status" class="status"></div>
+      <div id="result" class="result" hidden>
+        <a id="open-link" target="_blank" rel="noopener">Open in new tab &#8599;</a>
+        <a id="download-link" download="my-lifetime.webm">Download video</a>
+      </div>
+    </main>
+    <script type="module" src="/src/lifetime.js"></script>
+  </body>
+</html>
